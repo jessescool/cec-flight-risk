@@ -62,7 +62,7 @@ reports/                  audits, inquiries, write-ups
 
 ## What is and isn't supported by the data
 
-Supported (`reports/audit_2026-10-26.md`; the earlier `reports/stat_audit_2026-10-26.md` carries pre-rebuild counts and is kept for its test ledger):
+Supported (`reports/audit_2026-10-26.md`; test ledger regenerated from the canonical table by `code/analysis/stat_audit.py` in `reports/stat_audit_2026-10-26.md`):
 - forecast features predict the airport tier at arrival (380 out-of-sample days 2025Q4–2026Q4; AUC per lead in the results file);
 - fog at arrival raises the failure rate about 6x over clear weather (9/40 vs 15/439, p < 0.0001);
 - out of sample Oct 2025 – Oct 2026, a red forecast (P(low cloud) ≥ 0.30) at lead 3 preceded all 8 weather-coincident failures (7 of 8 at lead 1); a green one (< 0.15) preceded none at lead 3 and one at lead 1 (`data/outcome_model_results.txt`, ledger lines).
