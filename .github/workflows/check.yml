@@ -1,0 +1,38 @@
+name: Flight check
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Target date YYYY-MM-DD (blank = next flight)"
+        required: false
+        default: ""
+      yesterday_cancelled:
+        description: "Yesterday's evening flight was cancelled"
+        type: boolean
+        default: false
+permissions:
+  contents: write
+concurrency: check
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Run check
+        run: |
+          args=""
+          [ -n "${{ inputs.date }}" ] && args="--date ${{ inputs.date }}"
+          [ "${{ inputs.yesterday_cancelled }}" = "true" ] && args="$args --yesterday-cancelled"
+          python code/weekly_check.py $args | tee out.txt
+          { echo '```'; cat out.txt; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+      - name: Log prediction
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add data/predictions.csv
+          git diff --cached --quiet || { git commit -m "check: $(date -u +%Y-%m-%dT%H:%MZ)" && git pull --rebase && git push; }
