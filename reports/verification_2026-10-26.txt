@@ -1,0 +1,48 @@
+verification run Mon Oct 26 21:21:17 PDT 2026
+git cf81700, working tree changes before run: 1
+
+## 1 rebuild outcome table
+768 flights, 541 evening with a determinate outcome, 25 did not land
+  clear                  15/439  0.035 [0.020, 0.054]
+  low cloud, landable     1/ 57  0.026 [0.002, 0.079]
+  below minimums          9/ 40  0.232 [0.118, 0.371]
+
+## 2 retrain + rolling CV
+exit 0
+  P(no landing), shipped configuration               n= 294 events= 21  AUC=0.671 [0.536,0.800]  BSS=+0.065
+  P(no landing), shipped configuration               n= 294 events= 21  AUC=0.635 [0.494,0.781]  BSS=+0.060
+  P(no landing), shipped configuration               n= 294 events= 21  AUC=0.622 [0.482,0.765]  BSS=+0.069
+  P(no landing), shipped configuration               n= 294 events= 21  AUC=0.605 [0.468,0.742]  BSS=+0.037
+  P(no landing), shipped configuration               n= 294 events= 21  AUC=0.603 [0.459,0.748]  BSS=+0.053
+  P(no landing), shipped configuration               n= 294 events= 21  AUC=0.600 [0.453,0.733]  BSS=+0.053
+  P(no landing), shipped configuration               n= 294 events= 21  AUC=0.610 [0.484,0.734]  BSS=+0.027
+
+## 3 nowcast table
+days 2806  2019-01-01..2026-10-17  below minimums at arrival 190
+
+## 4 held-out fog split
+held-out period: flights from 2026-07-01; rates from out-of-sample rows before it
+
+## 5 tests
+48 passed in 1.43s
+
+## 6 artifacts changed by the rebuild (determinism check)
+?? reports/verification_2026-10-26.txt
+(empty = every artifact reproduced byte-identical)
+
+## 7 live check, Tuesday
+OAK->CEC AN3008  arr CEC Tue 2026-10-27 18:42 PDT   issued Mon 2026-10-26 21:22   lead 0.9 d -> lead-1 model
+YOUR ODDS
+  P(you do not land at CEC that evening)                                   0.053   sum of the product column; 25 failures / 536 flights; out-of-sample AUC 0.67, Brier skill +0.07
+  calibration check                                                                past flights scored 0.04-0.06 out of sample: 3/55 did not land (0.05 observed vs 0.05 predicted; small n)
+
+## 8 live check, Sunday
+OAK->CEC AN3008  arr CEC Sun 2026-11-01 18:42 PST   issued Mon 2026-10-26 21:22   lead 5.9 d -> lead-6 model
+YOUR ODDS
+  P(you do not land at CEC that evening)                                   0.061   sum of the product column; 25 failures / 536 flights; out-of-sample AUC 0.60, Brier skill +0.05
+  calibration check                                                                past flights scored 0.06-0.10 out of sample: 1/43 did not land (0.02 observed vs 0.07 predicted; small n)
+
+## 9 refusals
+Sun 2026-10-25 18:42 has already passed
+Fri 2026-11-20 is 24.9 days out; the models stop at 7 days. Re-run on or after Fri 2026-11-13.
+note: 10:56 arrival; the crew-stage rates come from evening flights and overstate daytime fog risk
