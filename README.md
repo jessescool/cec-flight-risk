@@ -71,7 +71,7 @@ Not separable in this sample, reported as sensitivities only:
 - Sunday vs arrival-time effect on the fog failure rate. Within forecastable fog in the scored period (lead 3): Sunday 3/3 vs weekday 3/8 (Fisher p = 0.18); arrival ≥ 19:00 4/5 vs 2/6 (p = 0.24). Sunday is the leading residual hypothesis (an earlier, longer out-of-sample run gave 4/4 vs 4/14, p = 0.02) but on three events it is not shipped; the pre-registered rule in `reports/audit_2026-10-26.md` decides when it would be.
 
 Shipped on weak evidence, flagged as such:
-- the previous-evening split of the floor (trailing 12 months: 3/14 after a non-landing vs 8/161 after a landing, Fisher p = 0.046, nominal only after 11 tests), used at lead 1 only because the mechanism (multi-day disruption) is plausible and the cost of being wrong is one evening's number.
+- the previous-evening split of the floor (trailing 12 months: 3/14 after a non-landing vs 8/161 after a landing, Fisher p = 0.046, nominal only in a 10-test ledger), used at lead 1 only because the mechanism (multi-day disruption) is plausible and the cost of being wrong is one evening's number.
 
 Known limits:
 - outcomes are inferred from ADS-B coverage gaps; 33 evenings are excluded as undetermined, 8 of them low-confidence absences (they do not cluster on fog nights, Fisher p = 0.73);
