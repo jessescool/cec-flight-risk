@@ -80,3 +80,11 @@ Known limits:
 - calibration: reliability bins per lead are in the results file; the check prints the bin its number falls in, with the count, so the reader sees how thin it is;
 - NBM ceiling/visibility guidance reaches 72 h only; HRRR's own ceiling/visibility fields scored worse than the ensemble (AUC 0.77–0.80 vs 0.90) and are not used;
 - a failed forecast fetch is imputed with training medians and flagged with a WARNING line; a failed schedule fetch falls back to the era default arrival time, also flagged; a dead status feed is flagged because a same-day cancellation would then go unseen. Upstream delays are listed, not scored: there is no history to validate a rule.
+
+## Open items (2026-10-26)
+
+These are limits of the data, not of the analysis. They stay open until the evidence named here exists.
+
+1. **Fog rate conditioned on forecast confidence.** Identified on the 2025Q4–2026Q4 out-of-sample reliability table, then checked held-out on 2026Q3–Q4 (87 flights, 10 failures). Supported at leads 1, 2, 3, 5, 6; neutral at 7; slightly worse at 4. The confident-fog cells hold 1–3 flights each, so this is directional support. What closes it: another season of fog flights with logged outcomes (`code/track_outcomes.py`), then re-run `code/analysis/fog_split_holdout.py` with the split date moved forward.
+2. **Sunday vs arrival-time effect on the fog failure rate.** Not separable: within forecast-confident fog, Sunday 3/3 vs weekday 3/8 (p = 0.18), arrival ≥ 19:00 4/5 vs 2/6 (p = 0.24). Pre-registered rule: among the next 10 below-minimums Sunday arrivals at 18:42, 3 or more failures ship a Sunday-specific rate; 0 or 1 closes the question. No other split gets added without an entry in `reports/audit_2026-10-26.md`.
+3. **Crew-stage sample size.** 21 scored failures. Every conditional rate rests on under 10 events and the check prints its interval. What closes it: the airline's monthly activity reports (records request sent 2026-10-26, `reports/inquiries.md`), which would replace ADS-B inference with the carrier's own diversion and cancellation counts.
