@@ -195,6 +195,9 @@ def main():
     print('YOUR ODDS')
     if flag == 'cancelled': print(f"{'  P(you do not land at CEC that evening)':<{W}}{'':>19}{1.0:>9.3f}   THIS FLIGHT IS SHOWN CANCELLED in the airline feed")
     else: print(f"{'  P(you do not land at CEC that evening)':<{W}}{'':>19}{p_noland:>9.3f}   sum of the product column; {mdl['n_fail']} failures / {mdl['n_flights']} flights; out-of-sample AUC {metrics['auc']:.2f}, Brier skill {metrics['bss']:+.2f}")
+    if flag != 'cancelled':
+        print(f"{'    of which weather (fog or low cloud at arrival)':<{W}}{'':>19}{p_noland - floor[0]:>9.3f}   headline minus the clear-sky rate")
+        print(f"{'    of which everything else (clear-sky rate)':<{W}}{'':>19}{floor[0]:>9.3f}   mechanical, crew, the plane never leaving OAK; applies on any night")
     rb = next((r for r in mdl.get('reliability', []) if r['lo'] < p_noland <= r['hi']), None)
     if rb and flag != 'cancelled': print(f"{'  calibration check':<{W}}{'':>28}   past flights scored {rb['lo']:.2f}-{rb['hi']:.2f} out of sample: {rb['failures']}/{rb['n']} did not land ({rb['observed']:.2f} observed vs {rb['predicted']:.2f} predicted; small n)")
     if nc:
