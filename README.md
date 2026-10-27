@@ -17,7 +17,7 @@ P(no landing) = Σ_t  P(weather tier t at arrival | forecast) · P(flight fails 
 
 Tiers follow the KCEC ILS/LPV 12 minimums: below minimums = ceiling < 300 ft or visibility < 3/4 mi; low cloud = ceiling ≤ 500 ft or visibility ≤ 1.5 mi.
 
-The clear-weather term is a floor no forecast can see (the aircraft never came). It is the trailing-12-month rate; at lead 1 only, it is split on whether the previous evening's flight landed (8/161 vs 3/16). The fog term is conditioned on the forecast's own out-of-sample P(below minimums): fog the forecast saw coming (P ≥ 0.3) is the persistent kind and crews fail about half the time; surprise fog is brief and crews usually land. The split was identified on the 2025–2026 out-of-sample reliability table, where the 0.10–0.20 bin ran about 2.3x its predicted rate, so that table cannot confirm it; a held-out check (rates from before July 2026, scored on 87 flights after) favours the split at leads 1, 2, 3, 5 and 6, is neutral at 7 and slightly against at 4, on 1–3 confident-fog flights per cell (`data/fog_split_holdout.txt`). At lead 7 the data point the other way (1/5 vs 8/30) and the code keeps the pooled rate there. The mixture is forced monotone in weather. Within 1.5 h of arrival a persistence nowcast from the latest METAR is shown next to the forecast figure; from 2 h out the forecast is the better predictor (`data/nowcast_vs_ensemble.txt`).
+The clear-weather term is a floor no forecast can see (the aircraft never came). It is the trailing-12-month rate; at lead 1 only, it is split on whether the previous evening's flight landed (8/161 vs 3/14). The fog term is conditioned on the forecast's own out-of-sample P(below minimums): fog the forecast saw coming (P ≥ 0.3) is the persistent kind and crews fail about half the time; surprise fog is brief and crews usually land. The split was identified on the 2025–2026 out-of-sample reliability table, where the 0.10–0.20 bin ran about 2.3x its predicted rate, so that table cannot confirm it; a held-out check (rates from before July 2026, scored on 87 flights after) favours the split at leads 1, 2, 3, 5 and 6, is neutral at 7 and slightly against at 4, on 1–3 confident-fog flights per cell (`data/fog_split_holdout.txt`). At lead 7 the data point the other way (0/1 vs 7/22) and the code keeps the pooled rate there. The mixture is forced monotone in weather. Within 1.5 h of arrival a persistence nowcast from the latest METAR is shown next to the forecast figure; from 2 h out the forecast is the better predictor (`data/nowcast_vs_ensemble.txt`).
 
 ## Run
 
@@ -65,18 +65,18 @@ reports/                  audits, inquiries, write-ups
 Supported (`reports/stat_audit_2026-10-26.md`, `reports/audit_2026-10-26.md`):
 - forecast features predict the airport tier at arrival (380 out-of-sample days 2025Q4–2026Q4; AUC per lead in the results file);
 - fog at arrival raises the failure rate about 6x over clear weather (9/40 vs 15/439, p < 0.0001);
-- out of sample Jan 2025 – Oct 2026, a red forecast (P(low cloud) ≥ 0.30) at lead 3 preceded all 10 weather-coincident failures (9 of 10 at lead 1); a green one (< 0.15) preceded none at lead 3 and one at lead 1 (`data/outcome_model_results.txt`, ledger lines).
+- out of sample Oct 2025 – Oct 2026, a red forecast (P(low cloud) ≥ 0.30) at lead 3 preceded all 8 weather-coincident failures (7 of 8 at lead 1); a green one (< 0.15) preceded none at lead 3 and one at lead 1 (`data/outcome_model_results.txt`, ledger lines).
 
-Leading residual hypothesis, not shipped:
-- after conditioning on forecast confidence, Sunday flights still fail more in forecastable fog (4/4 vs 4/14 weekday, Fisher p = 0.02, lead 3) while the arrival-time split does not (5/7 vs 3/11). Four events; the pre-registered rule in `reports/audit_2026-10-26.md` decides when it ships.
+Not separable in this sample, reported as sensitivities only:
+- Sunday vs arrival-time effect on the fog failure rate. Within forecastable fog in the scored period (lead 3): Sunday 3/3 vs weekday 3/8 (Fisher p = 0.18); arrival ≥ 19:00 4/5 vs 2/6 (p = 0.24). Sunday is the leading residual hypothesis (an earlier, longer out-of-sample run gave 4/4 vs 4/14, p = 0.02) but on three events it is not shipped; the pre-registered rule in `reports/audit_2026-10-26.md` decides when it would be.
 
 Shipped on weak evidence, flagged as such:
-- the previous-evening split of the floor (trailing 12 months: 3/14 after a non-landing vs 8/161 after a landing, Fisher p = 0.06, not significant), used at lead 1 only because the mechanism (multi-day disruption) is plausible and the cost of being wrong is one evening's number.
+- the previous-evening split of the floor (trailing 12 months: 3/14 after a non-landing vs 8/161 after a landing, Fisher p = 0.046, nominal only after 11 tests), used at lead 1 only because the mechanism (multi-day disruption) is plausible and the cost of being wrong is one evening's number.
 
 Known limits:
 - outcomes are inferred from ADS-B coverage gaps; 33 evenings are excluded as undetermined, 8 of them low-confidence absences (they do not cluster on fog nights, Fisher p = 0.73);
-- the airport's own monthly reports match our counts for the two months both exist (Nov 2024, Dec 2025) but show daytime diversions we do not score;
-- the clear-weather floor rose from 3/203 (1.5%) in 2025 to 11/184 (6.0%) in 2026 and the carrier is under performance review by the airport board; expect it to move;
+- the airport's own monthly reports (`data/airport_reports_vs_adsb.csv`) overlap our reconstruction in five months: counts agree in Nov 2024 and Dec 2025, disagree in Jun 2025 (airport 86/86 completed, our reconstruction 1 failure and 2 no-aircraft evenings), and Dec 2024 shows two daytime diversions we do not score;
+- the clear-weather floor rose from 3/203 (1.5%) in 2025 to 11/184 (6.0%) in 2026 and the airport board's 2026 packets carry a standing item on the carrier's on-time performance plus direction to a consultant on alternatives; expect it to move;
 - calibration: reliability bins per lead are in the results file; the check prints the bin its number falls in, with the count, so the reader sees how thin it is;
 - NBM ceiling/visibility guidance reaches 72 h only; HRRR's own ceiling/visibility fields scored worse than the ensemble (AUC 0.77–0.80 vs 0.90) and are not used;
 - a failed forecast fetch is imputed with training medians and flagged with a WARNING line; a failed schedule fetch falls back to the era default arrival time, also flagged; a dead status feed is flagged because a same-day cancellation would then go unseen. Upstream delays are listed, not scored: there is no history to validate a rule.

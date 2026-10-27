@@ -11,7 +11,7 @@ Scope: every quantitative claim made while building `code/train_outcome.py`, `co
 | green forecast, fog failures | 0/333, upper 95% 0.008 | n/a | yes |
 | prev-day cancelled -> next-day cancel | 3/15 vs 12/515 | 0.007 | no (borderline) |
 | Sunday vs weekday fail given below-mins | 5/9 vs 4/31 | 0.016 | no |
-| floor 2026 vs 2025 | 11/232 vs 3/249 | 0.028 | no |
+| floor 2026 vs 2025 | 11/232 vs 3/249 (pre-rebuild tables; the canonical evening-only table gives 11/184 vs 3/203) | 0.028 | no |
 | arrival >=19:00 vs <19:00 fail given below-mins | 6/14 vs 3/26 | 0.044 | no |
 | red Sunday vs red weekday any-fail | 5/27 vs 6/106 | 0.046 | no |
 | 3 aircraft active vs fewer | 0/119 vs 15/420 | 0.051 | no |
