@@ -1,5 +1,7 @@
 # Statistical validity audit, outcome model (2026-10-26)
 
+Note added after the rebuild the same evening: counts below come from the pre-rebuild outcome tables (438 clear flights, 978 days, all-time floor). The canonical table and the shipped model are described in `reports/audit_2026-10-26.md`; the test ledger and its conclusions are unchanged by the rebuild.
+
 Scope: every quantitative claim made while building `code/train_outcome.py`, `code/analysis/fleet_floor.py` and the weekly_check output. Method: Fisher exact tests on each 2x2 the session relied on, Jeffreys 95% intervals, test-count reconciliation, independence and measurement checks.
 
 ## Test ledger (11 explicit comparisons; Bonferroni alpha for 11 = 0.0045)

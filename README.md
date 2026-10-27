@@ -62,7 +62,7 @@ reports/                  audits, inquiries, write-ups
 
 ## What is and isn't supported by the data
 
-Supported (`reports/stat_audit_2026-10-26.md`, `reports/audit_2026-10-26.md`):
+Supported (`reports/audit_2026-10-26.md`; the earlier `reports/stat_audit_2026-10-26.md` carries pre-rebuild counts and is kept for its test ledger):
 - forecast features predict the airport tier at arrival (380 out-of-sample days 2025Q4–2026Q4; AUC per lead in the results file);
 - fog at arrival raises the failure rate about 6x over clear weather (9/40 vs 15/439, p < 0.0001);
 - out of sample Oct 2025 – Oct 2026, a red forecast (P(low cloud) ≥ 0.30) at lead 3 preceded all 8 weather-coincident failures (7 of 8 at lead 1); a green one (< 0.15) preceded none at lead 3 and one at lead 1 (`data/outcome_model_results.txt`, ledger lines).
@@ -75,7 +75,7 @@ Shipped on weak evidence, flagged as such:
 
 Known limits:
 - outcomes are inferred from ADS-B coverage gaps; 33 evenings are excluded as undetermined, 8 of them low-confidence absences (they do not cluster on fog nights, Fisher p = 0.73);
-- the airport's own monthly reports (`data/airport_reports_vs_adsb.csv`) overlap our reconstruction in five months: counts agree in Nov 2024 and Dec 2025, disagree in Jun 2025 (airport 86/86 completed, our reconstruction 1 failure and 2 no-aircraft evenings), and Dec 2024 shows two daytime diversions we do not score;
+- the airport's own monthly reports (`data/airport_reports_vs_adsb.csv`) overlap our reconstruction in five months, counting segments where we count evenings: Nov 2024, Mar 2025 and Dec 2025 are consistent, Jun 2025 disagrees (airport 86/86 completed, our reconstruction one scored failure), and Dec 2024 shows two daytime diversions we do not score;
 - the clear-weather floor rose from 3/203 (1.5%) in 2025 to 11/184 (6.0%) in 2026 and the airport board's 2026 packets carry a standing item on the carrier's on-time performance plus direction to a consultant on alternatives; expect it to move;
 - calibration: reliability bins per lead are in the results file; the check prints the bin its number falls in, with the count, so the reader sees how thin it is;
 - NBM ceiling/visibility guidance reaches 72 h only; HRRR's own ceiling/visibility fields scored worse than the ensemble (AUC 0.77–0.80 vs 0.90) and are not used;
