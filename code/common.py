@@ -57,7 +57,7 @@ def default_arrival(d):
     """Scheduled OAK->CEC arrival (HH:MM) by era, for days without a reconstructed flight record.
     Eras from the airline's schedule feed and Wayback captures (Mar/Jun/Oct 2025, Feb/Jun 2026); a timetable change
     needs a new line here and a rebuild of data/flight_outcomes.csv and the models."""
-    d = pd.Timestamp(d)
+    d = pd.Timestamp(d); d = d.tz_localize(None) if d.tzinfo else d
     if d.dayofweek == 6:
         if d < pd.Timestamp('2024-10-01'): return '14:06'
         if d < pd.Timestamp('2026-06-28'): return '19:06'

@@ -2,15 +2,16 @@
 (Sunday + weekday tables from evening_outcomes.py) joined to the KCEC METAR tier at its scheduled arrival.
 Columns: date, sched_arr, outcome, conf, ac, evidence, wx_worst, wx_min_ceil, wx_min_vis, reached, fail, unknown."""
 import os, sys, pandas as pd, numpy as np
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')); from common import *
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), '..'))
+from common import ROOT, ARRIVAL_WINDOW, TIER_LABEL, load_metars, arrival_ts, default_arrival, jeffreys
 os.chdir(ROOT)
 
 S = pd.read_csv('data/sunday_outcomes.csv', parse_dates=['date'])
 S['sched_arr'] = [default_arrival(d) for d in S.date]
-# manual review 2026-06-14: the only 328 at OAK (N395MS) flew OAK->Merced that evening instead of CEC; fog at CEC (OVC002, 3/4 SM)
-S.loc[S.date == '2026-06-14', ['outcome', 'conf', 'evidence']] = ['no_328_near_CEC', 'medium', 'manual review: N395MS left OAK 20:20 for Merced; no 328 inbound to CEC; fog at arrival time']
 W = pd.read_csv('data/weekday_outcomes.csv', parse_dates=['date'])
 R = pd.concat([S, W]).sort_values('date').drop_duplicates('date').reset_index(drop=True)
+for _, o in pd.read_csv('data/manual_overrides.csv', parse_dates=['date']).iterrows():      # hand-reviewed evenings the gap classifier got wrong
+    R.loc[R.date == o.date, ['outcome', 'conf', 'evidence']] = [o.outcome, o.conf, o.evidence]
 
 ml = load_metars()
 wx = []

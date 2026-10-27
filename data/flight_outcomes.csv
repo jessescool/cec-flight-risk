@@ -643,7 +643,7 @@ date,sched_arr,outcome,conf,ac,evidence,wx_worst,wx_min_ceil,wx_min_vis,reached,
 2026-06-11,19:06,landed_overnight,medium-high,N395MS,left OAK northbound after 18:15; next seen Fri 09:09 climbing 90km from CEC at 25325ft; nothing at MFR/ACV/OAK between,0.0,99999.0,10.0,True,False,False
 2026-06-12,18:06,landed,high,N334MS,"CEC_landed_overnight_or_long_stop: inbound 135km/23200ft, out 1048min later climbing 27km/15275ft",0.0,99999.0,10.0,True,False,False
 2026-06-13,12:06,landed,high,N334MS,"CEC_landed_overnight_or_long_stop: inbound 51km/8000ft, out 1110min later climbing 30km/10650ft",0.0,99999.0,10.0,True,False,False
-2026-06-14,19:06,no_328_near_CEC,medium,N395MS,manual review: N395MS left OAK 20:20 for Merced; no 328 inbound to CEC; fog at arrival time,2.0,200.0,0.75,False,True,False
+2026-06-14,19:06,no_328_near_CEC,medium,N395MS,"manual review: N395MS left OAK 20:20 for Merced; no 328 inbound to CEC; fog at arrival time (OVC002, 3/4 SM)",2.0,200.0,0.75,False,True,False
 2026-06-15,18:06,landed,high,N395MS,"CEC_landed_overnight_or_long_stop: inbound 57km/14000ft, out 769min later climbing 40km/14475ft",2.0,200.0,2.0,True,False,False
 2026-06-16,18:06,landed,high,N395MS,"CEC_landed_overnight_or_long_stop: inbound 57km/9925ft, out 794min later climbing 40km/13450ft",0.0,99999.0,8.0,True,False,False
 2026-06-17,18:06,landed,high,N395MS,"CEC_landed_overnight_or_long_stop: inbound 50km/15825ft, out 854min later climbing 52km/17100ft",1.0,300.0,10.0,True,False,False

@@ -4,18 +4,17 @@
 
 Default target is the next Sunday. The arrival time comes from the airline's published schedule for that day; the model
 for the matching lead (1-7 days) gives P(low cloud) and P(below minimums) at arrival, and the crew-stage rates
-(code/outcome.py) turn those into P(you do not land at CEC that evening). Within 1.5 h of arrival a persistence nowcast
+(code/outcome.py) turn those into P(you do not land at CEC that evening). Inside 1.5 h of arrival a persistence nowcast
 from the latest METAR is shown alongside; beyond that the forecast scores better (data/nowcast_vs_ensemble.txt).
 Targets in the past or more than 7.5 days out are refused. Every run appends one row to data/predictions.csv."""
 import argparse, os, sys, warnings; warnings.filterwarnings('ignore')
 import numpy as np, pandas as pd, joblib, requests
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import ROOT, TZ, LAT, LON, VARS, FEED, NOWCAST_STATE_DESC, window_features, add_season, parse_metar, nowcast_state, arrival_ts, default_arrival
-from outcome import mixture
+from outcome import mixture, fog_rate, FOG_CONF_CUT
 os.chdir(ROOT)
 LABEL_W = 52                                             # label column width in the report
 NOWCAST_HOURS = (0.5, 1.5)                               # window in which persistence beats the forecast (data/nowcast_vs_ensemble.txt)
-UPSTREAM_LATE_MIN = 90                                   # an inbound leg this late counts as a disruption
 
 def feed(endpoint):
     return requests.get(FEED + endpoint, params={'_': int(pd.Timestamp.now().timestamp())}, headers={'Cache-Control': 'no-cache'}, timeout=30).json()
@@ -64,8 +63,8 @@ def previous_evening(T, log, forced_cancelled=False):
     """1 if the previous evening's OAK->CEC flight did not land at CEC (cancelled or diverted), 0 if it landed, None if unknown."""
     if forced_cancelled: return 1
     if log is None or log.empty: return None
-    L = log[(log.origin == 'OAK') & (log.destination == 'CEC')]
-    L = L[pd.to_datetime(L.scheduled_out, utc=True).dt.tz_convert(TZ).dt.date == (T - pd.Timedelta(days=1)).date()]
+    L = log[(log.origin == 'OAK') & (log.destination == 'CEC')]; so = pd.to_datetime(L.scheduled_out, utc=True).dt.tz_convert(TZ)
+    L = L[(so.dt.date == (T - pd.Timedelta(days=1)).date()) & (so.dt.hour >= 16)]       # evening departures only, matching the training definition
     if L.empty: return None
     st = L.status.astype(str)
     if L.cancelled.astype(str).eq('True').any() or st.str.contains('ancel|ivert').any(): return 1
@@ -73,7 +72,7 @@ def previous_evening(T, log, forced_cancelled=False):
     return None
 
 def same_day_feed(T, flight):
-    """Lines describing today's legs into OAK and this flight, plus a flag: 'cancelled', 'disrupted' or ''."""
+    """Lines describing today's legs into OAK and this flight, plus a flag: 'cancelled', 'unknown' (feed down) or ''."""
     try:
         legs = feed('flight-status')['flights']
         ts = lambda f: pd.to_datetime(f['scheduled_out'], utc=True)
@@ -86,9 +85,9 @@ def same_day_feed(T, flight):
             return (pd.to_datetime(e, utc=True) - ts(f)).total_seconds() / 60
         lines = [f"  {f['ident']:7s} {f['origin']}->{f['destination']} sched {ts(f).tz_convert(TZ):%H:%M}  {str(f.get('status') or '?'):10s} delay {delay(f):+.0f} min{'  CANCELLED' if f.get('cancelled') else ''}"
                  for f in sorted(up + mine, key=lambda f: f['scheduled_out'])]
-        flag = 'cancelled' if (mine and mine[0].get('cancelled')) else 'disrupted' if any(f.get('cancelled') or delay(f) > UPSTREAM_LATE_MIN for f in up + mine) else ''
+        flag = 'cancelled' if (mine and mine[0].get('cancelled')) else ''
         return lines, flag
-    except Exception as e: return [f'status feed failed: {e}'], ''
+    except Exception as e: return [f'status feed failed: {e}'], 'unknown'
 
 def fetch_nbm(now, Tu):
     """One line of National Blend ceiling/visibility guidance for the arrival hour, or '' (text bulletins reach 72 h)."""
@@ -129,7 +128,7 @@ def fetch_taf_metar(want_taf):
 
 def nowcast(met, hrs, table):
     """Persistence row for the current airport state and hours-to-arrival, or None outside NOWCAST_HOURS."""
-    if table is None or not (NOWCAST_HOURS[0] <= hrs <= NOWCAST_HOURS[1]): return None
+    if table is None or not (NOWCAST_HOURS[0] <= hrs < NOWCAST_HOURS[1]): return None
     ceil, vis = parse_metar(met)
     if vis is None: return None
     state = nowcast_state(ceil, vis); h = int(np.clip(round(hrs), 1, 5))
@@ -145,7 +144,8 @@ def log_prediction(row, path='data/predictions.csv'):
 def main():
     ap = argparse.ArgumentParser(); ap.add_argument('--date'); ap.add_argument('--yesterday-cancelled', action='store_true'); a = ap.parse_args()
     now = pd.Timestamp.now(tz=TZ)
-    day = pd.Timestamp(a.date).tz_localize(TZ) if a.date else (now + pd.Timedelta(days=((6 - now.dayofweek) % 7) or 7)).normalize()
+    ahead = (6 - now.dayofweek) % 7; ahead = 7 if (ahead == 0 and now.hour >= 20) else ahead     # a Sunday-morning run targets today's flight
+    day = pd.Timestamp(a.date).tz_localize(TZ) if a.date else (now + pd.Timedelta(days=ahead)).normalize()
     arr, flight, note = scheduled_arrival(day)
     if arr is None: print(f'{day:%a %Y-%m-%d}: {note}'); return
     if note: print(note)
@@ -157,7 +157,7 @@ def main():
     print(f"OAK->CEC {flight}  arr CEC {T:%a %Y-%m-%d %H:%M %Z}   issued {now:%a %Y-%m-%d %H:%M}   lead {lead_days:.1f} d -> lead-{lead} model")
 
     mdl = joblib.load(f'models/outcome_lead{lead}.joblib'); rates = mdl['rates']; metrics = mdl['metrics']
-    feats, H, warn = fetch_forecasts(Tu, mdl['models_used'] if 'models_used' in mdl else mdl['models'])
+    feats, H, warn = fetch_forecasts(Tu, mdl['models_used'])
     for w in warn: print('  WARNING', w)
     if not feats: print('no forecast data; stopping'); return
     print_forecast(H, T)
@@ -171,9 +171,9 @@ def main():
     floor = rates[{1: 'floor_prev_fail', 0: 'floor_prev_ok', None: 'floor'}[prev]]
     floor_note = {1: "previous evening's flight did not land", 0: "previous evening's flight landed", None: 'previous evening not used' if lead_days >= 1 else 'previous evening unknown'}[prev]
     upstream, flag = same_day_feed(T, flight) if lead_days < 1 else ([], '')
-    if flag == 'disrupted' and floor[0] < rates['floor_prev_fail'][0]: floor = rates['floor_prev_fail']; floor_note = f'an inbound leg today is cancelled or >{UPSTREAM_LATE_MIN} min late; after-a-cancellation rate'
-    p_noland = 1.0 if flag == 'cancelled' else mixture(p_marg, p_below, floor[0], rates)
-    r1 = max(rates[1][0], floor[0]); r2 = max(rates[2][0], r1)
+    if flag == 'unknown': print('  WARNING status feed unavailable; a same-day cancellation would not be seen')
+    p_noland = 1.0 if flag == 'cancelled' else mixture(p_marg, p_below, floor[0], rates)      # upstream delays are listed for the reader, not scored: no history to validate a rule
+    r1 = max(rates[1][0], floor[0]); fog_key = 'fog_conf' if p_below >= FOG_CONF_CUT else 'fog_surprise'; r2 = max(rates[fog_key][0], r1)
 
     nbm = fetch_nbm(now, Tu); taf, met = fetch_taf_metar(lead_days < 1.1)
     table = pd.read_csv('data/nowcast_table.csv', dtype={'state': str}) if os.path.exists('data/nowcast_table.csv') else None
@@ -189,7 +189,8 @@ def main():
     print(f"{'WHAT THE CREW DOES, GIVEN THAT WEATHER (past flights)':<{W}}{'P(sky)':>7}{'P(fail|sky)':>12}{'product':>9}   basis (failures/flights, 95% interval)")
     print(f"{'  clear':<{W}}{1 - p_marg:>7.3f}{floor[0]:>12.3f}{(1 - p_marg) * floor[0]:>9.3f}   {ci(floor)}; {floor_note}")
     print(f"{'  low cloud, landable':<{W}}{p_marg - p_below:>7.3f}{r1:>12.3f}{(p_marg - p_below) * r1:>9.3f}   {ci(rates[1])}{'; floored at the clear rate' if r1 > rates[1][0] else ''}")
-    print(f"{'  below minimums':<{W}}{p_below:>7.3f}{r2:>12.3f}{p_below * r2:>9.3f}   {ci(rates[2])}; Sunday-only {rates['fog_sunday'][0]:.2f} ({rates['fog_sunday'][3]}/{rates['fog_sunday'][4]}) is a sensitivity, not shipped")
+    fog_txt = f"forecast {'saw it coming' if fog_key == 'fog_conf' else 'did not see it'} (P(below) {'>=' if fog_key == 'fog_conf' else '<'} {FOG_CONF_CUT}): {ci(rates[fog_key])}; pooled {rates[2][3]}/{rates[2][4]}; Sunday-only {rates['fog_sunday'][3]}/{rates['fog_sunday'][4]} is a sensitivity"
+    print(f"{'  below minimums':<{W}}{p_below:>7.3f}{r2:>12.3f}{p_below * r2:>9.3f}   {fog_txt}")
     print()
     print('YOUR ODDS')
     if flag == 'cancelled': print(f"{'  P(you do not land at CEC that evening)':<{W}}{'':>19}{1.0:>9.3f}   THIS FLIGHT IS SHOWN CANCELLED in the airline feed")
@@ -197,7 +198,7 @@ def main():
     rb = next((r for r in mdl.get('reliability', []) if r['lo'] < p_noland <= r['hi']), None)
     if rb and flag != 'cancelled': print(f"{'  calibration check':<{W}}{'':>28}   past flights scored {rb['lo']:.2f}-{rb['hi']:.2f} out of sample: {rb['failures']}/{rb['n']} did not land ({rb['observed']:.2f} observed vs {rb['predicted']:.2f} predicted; small n)")
     if nc:
-        q_noland = mixture(float(nc['p_marg']), float(nc['p_below']), floor[0], rates)
+        q_noland = mixture(float(nc['p_marg']), float(nc['p_below']), floor[0], rates, 2)      # pooled fog rate: the confidence split was estimated on forecast P(below), not persistence
         ceil_txt = 'none' if nc['ceil'] is None else f"{nc['ceil']} ft"
         print()
         print(f"{'NOWCAST FROM THE AIRPORT NOW (' + f'{hrs:.1f} h before arrival)':<{W}}{'p':>7}   basis (2019-2026 METAR archive, days in this state {nc['h']} h out)")

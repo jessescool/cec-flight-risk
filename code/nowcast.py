@@ -1,11 +1,11 @@
 """Same-day persistence nowcast: P(tier at arrival | latest METAR h hours before arrival), from the KCEC METAR archive.
 Arrival = the scheduled time for reconstructed flight days, else the era default. Writes data/nowcast_table.csv
-(lead_h, state, n, n_marg, n_below, p_marg, p_below) which weekly_check.py reads when run within 2.5 h of arrival; beyond 2 h the lead-1 forecast scores better (code/analysis/nowcast_vs_ensemble.py)."""
+(lead_h, state, n, n_marg, n_below, p_marg, p_below) which weekly_check.py reads when run inside 1.5 h of arrival; from 2 h out the lead-1 forecast scores better (code/analysis/nowcast_vs_ensemble.py)."""
 import os, sys, numpy as np, pandas as pd
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from common import ROOT, NOWCAST_STATES, load_metars, nowcast_state, arrival_ts, default_arrival, worst_tier, jeffreys
 os.chdir(ROOT)
-MAX_METAR_AGE = pd.Timedelta(minutes=75)
+MAX_METAR_AGE = pd.Timedelta(minutes=75)   # routine METARs are hourly; older than this means the hour's report is missing
 
 def build_days():
     ml = load_metars(); ml['state'] = [nowcast_state(c, v) for c, v in zip(ml.ceil, ml.vsby)]

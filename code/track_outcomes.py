@@ -3,7 +3,9 @@ the scheduled arrival once the flight is in the past. Run a few times a day via 
 import requests, pandas as pd, os, numpy as np
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__))); os.chdir(ROOT); LOG = 'data/flight_log.csv'
 j = requests.get('https://advancedairlines.com/wp-json/advanced-air/v1/flight-status', params={'_': int(pd.Timestamp.now().timestamp())}, headers={'Cache-Control': 'no-cache'}, timeout=30).json()
-new = pd.DataFrame([f for f in j['flights'] if 'CEC' in (f['origin'], f['destination'])]); new['seen'] = j['generated']
+new = pd.DataFrame([f for f in j['flights'] if 'CEC' in (f['origin'], f['destination'])])
+if new.empty: print('no CEC flights in feed'); raise SystemExit
+new['seen'] = j['generated']
 old = pd.read_csv(LOG) if os.path.exists(LOG) else pd.DataFrame(columns=['ident', 'scheduled_out', 'metar'])
 new['metar'] = new.set_index(['ident', 'scheduled_out']).index.map(old.set_index(['ident', 'scheduled_out']).metar.to_dict())   # keep a METAR already attached
 df = pd.concat([old, new]).drop_duplicates(['ident', 'scheduled_out'], keep='last').reset_index(drop=True)
