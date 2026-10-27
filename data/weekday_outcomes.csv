@@ -1,0 +1,633 @@
+date,sched_arr,outcome,conf,ac,arrival_est,evidence
+2024-10-01,18:06,landed,high,N395MS,18:01,"CEC_landed_overnight_or_long_stop: inbound 140km/24550ft, out 816min later climbing 102km/24150ft"
+2024-10-02,18:06,landed,high,N395MS,17:52,"CEC_landed_overnight_or_long_stop: inbound 140km/24425ft, out 844min later climbing 94km/26450ft"
+2024-10-03,19:06,unclear,low,N395MS,,328 near CEC but no classifiable event
+2024-10-04,14:06,unclear,low,N395MS,,328 near CEC but no classifiable event
+2024-10-05,14:06,landed,high,N395MS,14:17,"CEC_landed_overnight_or_long_stop: inbound 1km/0ft, out 1117min later climbing 121km/27000ft"
+2024-10-07,18:06,landed,high,N395MS,17:54,"CEC_landed_overnight_or_long_stop: inbound 137km/22475ft, out 829min later climbing 114km/24025ft"
+2024-10-08,18:06,landed,high,N395MS,17:54,"CEC_landed_overnight_or_long_stop: inbound 140km/23250ft, out 868min later climbing 110km/23225ft"
+2024-10-09,18:06,landed,high,N395MS,17:57,"CEC_landed_overnight_or_long_stop: inbound 143km/20075ft, out 908min later climbing 106km/28500ft"
+2024-10-10,19:06,landed,high,N395MS,18:46,"CEC_landed_overnight_or_long_stop: inbound 143km/19800ft, out 1000min later climbing 109km/25000ft"
+2024-10-11,14:06,landed,high,N395MS,13:46,"CEC_landed_overnight_or_long_stop: inbound 130km/20425ft, out 1292min later climbing 109km/25000ft"
+2024-10-12,14:06,landed,high,N395MS,13:57,"CEC_landed_overnight_or_long_stop: inbound 132km/20700ft, out 1132min later climbing 110km/22475ft"
+2024-10-14,18:06,landed,high,N395MS,17:55,"CEC_landed_overnight_or_long_stop: inbound 133km/22350ft, out 818min later climbing 111km/25000ft"
+2024-10-15,18:06,landed,high,N395MS,18:01,"CEC_landed_overnight_or_long_stop: inbound 121km/26000ft, out 812min later climbing 117km/25000ft"
+2024-10-16,18:06,landed,high,N395MS,17:59,"CEC_landed_overnight_or_long_stop: inbound 139km/24075ft, out 870min later climbing 119km/25825ft"
+2024-10-17,19:06,landed,high,N395MS,19:01,"CEC_landed_overnight_or_long_stop: inbound 132km/23000ft, out 987min later climbing 127km/25000ft"
+2024-10-18,14:06,landed,high,N395MS,13:57,"CEC_landed_overnight_or_long_stop: inbound 134km/24750ft, out 1299min later climbing 89km/24650ft"
+2024-10-19,14:06,landed,high,N395MS,13:59,"CEC_landed_overnight_or_long_stop: inbound 123km/21475ft, out 1114min later climbing 83km/24075ft"
+2024-10-21,18:06,landed,high,N395MS,18:14,"CEC_landed_overnight_or_long_stop: inbound 138km/24000ft, out 806min later climbing 89km/24600ft"
+2024-10-22,18:06,landed,high,N395MS,18:01,"CEC_landed_overnight_or_long_stop: inbound 136km/23425ft, out 801min later climbing 56km/21125ft"
+2024-10-23,18:06,landed,high,N395MS,18:02,"CEC_landed_overnight_or_long_stop: inbound 128km/22050ft, out 870min later climbing 124km/27000ft"
+2024-10-24,19:06,landed,high,N395MS,19:05,"CEC_landed_overnight_or_long_stop: inbound 134km/23350ft, out 979min later climbing 107km/25000ft"
+2024-10-25,14:06,unclear,low,N395MS,,328 near CEC but no classifiable event
+2024-10-26,14:06,landed,high,N395MS,14:07,ground-level ADS-B points at CEC from 14:07 (receiver coverage that day)
+2024-10-28,18:06,unclear,low,N395MS,,328 near CEC but no classifiable event
+2024-10-29,18:06,unclear,low,N395MS,,328 near CEC but no classifiable event
+2024-10-30,18:06,landed,high,N395MS,17:50,ground-level ADS-B points at CEC from 17:50 (receiver coverage that day)
+2024-10-31,19:06,landed,high,N395MS,19:06,ground-level ADS-B points at CEC from 19:06 (receiver coverage that day)
+2024-11-01,14:06,landed,high,N395MS,11:13,ground-level ADS-B points at CEC from 11:13 (receiver coverage that day)
+2024-11-02,14:06,unclear,low,N395MS,,328 near CEC but no classifiable event
+2024-11-04,18:06,landed,high,N395MS,17:51,ground-level ADS-B points at CEC from 17:51 (receiver coverage that day)
+2024-11-05,18:06,landed,high,N395MS,18:19,ground-level ADS-B points at CEC from 18:19 (receiver coverage that day)
+2024-11-06,18:06,landed,high,N395MS,17:50,ground-level ADS-B points at CEC from 17:50 (receiver coverage that day)
+2024-11-07,19:06,landed,high,N395MS,18:46,ground-level ADS-B points at CEC from 18:46 (receiver coverage that day)
+2024-11-08,14:06,landed,high,N395MS,13:48,ground-level ADS-B points at CEC from 13:48 (receiver coverage that day)
+2024-11-09,14:06,unclear,low,N395MS,,328 near CEC but no classifiable event
+2024-11-11,18:06,landed,high,N395MS,18:02,ground-level ADS-B points at CEC from 18:02 (receiver coverage that day)
+2024-11-12,18:06,landed,high,N395MS,18:11,ground-level ADS-B points at CEC from 18:11 (receiver coverage that day)
+2024-11-13,18:06,landed,high,N395MS,17:56,ground-level ADS-B points at CEC from 17:56 (receiver coverage that day)
+2024-11-14,19:06,landed,high,N334MS,16:10,ground-level ADS-B points at CEC from 16:10 (receiver coverage that day)
+2024-11-15,14:06,landed,high,N334MS,13:41,ground-level ADS-B points at CEC from 13:41 (receiver coverage that day)
+2024-11-16,14:06,landed,high,N334MS,13:59,ground-level ADS-B points at CEC from 13:59 (receiver coverage that day)
+2024-11-18,18:06,landed,high,N395MS,18:09,ground-level ADS-B points at CEC from 18:09 (receiver coverage that day)
+2024-11-19,18:06,landed,high,N395MS,17:01,ground-level ADS-B points at CEC from 17:01 (receiver coverage that day)
+2024-11-20,18:06,landed,high,N395MS,18:09,ground-level ADS-B points at CEC from 18:09 (receiver coverage that day)
+2024-11-21,19:06,landed,high,N334MS,16:07,ground-level ADS-B points at CEC from 16:07 (receiver coverage that day)
+2024-11-22,14:06,landed,high,N334MS,14:02,ground-level ADS-B points at CEC from 14:02 (receiver coverage that day)
+2024-11-23,14:06,landed,high,N334MS,13:53,ground-level ADS-B points at CEC from 13:53 (receiver coverage that day)
+2024-11-25,18:06,landed,high,N334MS,18:06,ground-level ADS-B points at CEC from 18:06 (receiver coverage that day)
+2024-11-26,18:06,landed,high,N334MS,18:05,ground-level ADS-B points at CEC from 18:05 (receiver coverage that day)
+2024-11-27,18:06,landed,high,N334MS,18:03,ground-level ADS-B points at CEC from 18:03 (receiver coverage that day)
+2024-11-28,19:06,landed,high,N395MS,18:45,ground-level ADS-B points at CEC from 18:45 (receiver coverage that day)
+2024-11-29,14:06,landed,high,N395MS,13:47,ground-level ADS-B points at CEC from 13:47 (receiver coverage that day)
+2024-11-30,14:06,landed,high,N395MS,13:49,ground-level ADS-B points at CEC from 13:49 (receiver coverage that day)
+2024-12-02,18:06,landed,high,N395MS,17:58,ground-level ADS-B points at CEC from 17:58 (receiver coverage that day)
+2024-12-03,18:06,landed,high,N395MS,18:08,ground-level ADS-B points at CEC from 18:08 (receiver coverage that day)
+2024-12-04,18:06,unclear,low,N395MS,,328 near CEC but no classifiable event
+2024-12-05,19:06,landed,high,N334MS,19:34,"CEC_landed_overnight_or_long_stop: inbound 137km/23950ft, out 940min later climbing 65km/18500ft"
+2024-12-06,14:06,landed,high,N334MS,13:47,"CEC_landed_overnight_or_long_stop: inbound 92km/15975ft, out 1285min later climbing 61km/18775ft"
+2024-12-07,14:06,landed,high,N334MS,13:49,"CEC_landed_overnight_or_long_stop: inbound 138km/24125ft, out 1108min later climbing 53km/18400ft"
+2024-12-09,18:06,landed,high,N334MS,18:03,"CEC_landed_overnight_or_long_stop: inbound 127km/22225ft, out 795min later climbing 61km/19325ft"
+2024-12-10,18:06,landed,high,N334MS,17:39,"CEC_landed_overnight_or_long_stop: inbound 141km/19325ft, out 830min later climbing 107km/27050ft"
+2024-12-11,18:06,landed,high,N334MS,17:40,"CEC_landed_overnight_or_long_stop: inbound 131km/24475ft, out 886min later climbing 97km/27500ft"
+2024-12-12,19:06,landed_overnight,medium-high,N395MS,,left OAK northbound after 17:54; next seen Fri 11:16 climbing 122km from CEC at 27000ft; nothing at MFR/ACV/OAK between
+2024-12-13,14:06,landed,high,N395MS,13:51,"CEC_landed_overnight_or_long_stop: inbound 152km/24000ft, out 1291min later climbing 63km/20675ft"
+2024-12-14,14:06,landed,high,N395MS,13:46,"CEC_landed_overnight_or_long_stop: inbound 103km/18300ft, out 1118min later climbing 68km/21425ft"
+2024-12-16,18:06,landed,high,N395MS,17:58,"CEC_landed_overnight_or_long_stop: inbound 144km/25200ft, out 810min later climbing 65km/20475ft"
+2024-12-17,18:06,landed,high,N395MS,17:54,"CEC_landed_overnight_or_long_stop: inbound 138km/21425ft, out 1120min later climbing 76km/22075ft"
+2024-12-18,18:06,landed,high,N395MS,17:58,"CEC_landed_overnight_or_long_stop: inbound 136km/21050ft, out 879min later climbing 110km/25850ft"
+2024-12-19,19:06,landed,high,N395MS,18:53,"CEC_landed_overnight_or_long_stop: inbound 137km/23800ft, out 995min later climbing 47km/21200ft"
+2024-12-20,14:06,landed,high,N395MS,13:54,"CEC_landed_overnight_or_long_stop: inbound 132km/22150ft, out 1302min later climbing 109km/25800ft"
+2024-12-21,14:06,landed,high,N395MS,13:52,"CEC_landed_overnight_or_long_stop: inbound 131km/24875ft, out 1129min later climbing 114km/26450ft"
+2024-12-23,18:06,landed,high,N395MS,18:15,"CEC_landed_overnight_or_long_stop: inbound 116km/25900ft, out 827min later climbing 116km/26975ft"
+2024-12-24,18:06,landed,high,N395MS,17:51,"CEC_landed_overnight_or_long_stop: inbound 137km/22000ft, out 802min later climbing 74km/21800ft"
+2024-12-25,18:06,landed,high,N395MS,18:07,"CEC_landed_overnight_or_long_stop: inbound 84km/20825ft, out 871min later climbing 128km/26200ft"
+2024-12-26,19:06,landed,high,N395MS,19:28,"CEC_landed_overnight_or_long_stop: inbound 138km/24175ft, out 958min later climbing 79km/21125ft"
+2024-12-27,14:06,landed,high,N395MS,14:01,"CEC_landed_overnight_or_long_stop: inbound 127km/21975ft, out 1303min later climbing 82km/20950ft"
+2024-12-28,14:06,landed,high,N395MS,13:57,"CEC_landed_overnight_or_long_stop: inbound 113km/26900ft, out 1146min later climbing 92km/27925ft"
+2025-01-01,18:06,landed,high,N395MS,18:01,"CEC_landed_overnight_or_long_stop: inbound 137km/22625ft, out 870min later climbing 123km/30200ft"
+2025-01-02,19:06,landed,high,N395MS,18:58,ground-level ADS-B points at CEC from 18:58 (receiver coverage that day)
+2025-01-03,14:06,landed,high,N395MS,16:56,ground-level ADS-B points at CEC from 16:56 (receiver coverage that day)
+2025-01-04,14:06,landed,high,N395MS,13:48,ground-level ADS-B points at CEC from 13:48 (receiver coverage that day)
+2025-01-06,18:06,landed,high,N395MS,19:20,ground-level ADS-B points at CEC from 19:20 (receiver coverage that day)
+2025-01-07,18:06,unclear,low,N395MS,,328 near CEC but no classifiable event
+2025-01-08,18:06,landed,high,N395MS,18:11,ground-level ADS-B points at CEC from 18:11 (receiver coverage that day)
+2025-01-09,19:06,landed,high,N395MS,18:53,ground-level ADS-B points at CEC from 18:53 (receiver coverage that day)
+2025-01-10,14:06,landed,high,N395MS,13:57,ground-level ADS-B points at CEC from 13:57 (receiver coverage that day)
+2025-01-11,14:06,landed,high,N395MS,13:58,ground-level ADS-B points at CEC from 13:58 (receiver coverage that day)
+2025-01-13,18:06,landed,high,N334MS,18:01,ground-level ADS-B points at CEC from 18:01 (receiver coverage that day)
+2025-01-14,18:06,landed,high,N334MS,17:44,ground-level ADS-B points at CEC from 17:44 (receiver coverage that day)
+2025-01-15,18:06,landed,high,N334MS,18:22,ground-level ADS-B points at CEC from 18:22 (receiver coverage that day)
+2025-01-16,19:06,landed,high,N395MS,18:14,ground-level ADS-B points at CEC from 18:14 (receiver coverage that day)
+2025-01-17,14:06,landed,high,N395MS,13:50,ground-level ADS-B points at CEC from 13:50 (receiver coverage that day)
+2025-01-18,14:06,landed,high,N395MS,13:33,ground-level ADS-B points at CEC from 13:33 (receiver coverage that day)
+2025-01-20,18:06,landed,high,N334MS,17:55,ground-level ADS-B points at CEC from 17:55 (receiver coverage that day)
+2025-01-21,18:06,landed,high,N334MS,18:01,ground-level ADS-B points at CEC from 18:01 (receiver coverage that day)
+2025-01-22,18:06,landed,high,N334MS,17:54,ground-level ADS-B points at CEC from 17:54 (receiver coverage that day)
+2025-01-23,19:06,landed,high,N334MS,17:15,ground-level ADS-B points at CEC from 17:15 (receiver coverage that day)
+2025-01-24,14:06,landed,high,N334MS,13:51,ground-level ADS-B points at CEC from 13:51 (receiver coverage that day)
+2025-01-25,14:06,landed,high,N334MS,13:48,ground-level ADS-B points at CEC from 13:48 (receiver coverage that day)
+2025-01-27,18:06,landed,high,N334MS,17:52,ground-level ADS-B points at CEC from 17:52 (receiver coverage that day)
+2025-01-28,18:06,landed,high,N334MS,17:49,ground-level ADS-B points at CEC from 17:49 (receiver coverage that day)
+2025-01-29,18:06,landed,high,N334MS,17:50,ground-level ADS-B points at CEC from 17:50 (receiver coverage that day)
+2025-01-30,19:06,unclear,low,N334MS,,328 near CEC but no classifiable event
+2025-01-31,14:06,landed,high,N334MS,14:21,ground-level ADS-B points at CEC from 14:21 (receiver coverage that day)
+2025-02-01,14:06,landed,high,N334MS,13:57,ground-level ADS-B points at CEC from 13:57 (receiver coverage that day)
+2025-02-03,18:06,landed,high,N334MS,23:01,ground-level ADS-B points at CEC from 23:01 (receiver coverage that day)
+2025-02-04,18:06,landed,high,N334MS,18:06,ground-level ADS-B points at CEC from 18:06 (receiver coverage that day)
+2025-02-05,18:06,landed,high,N334MS,18:01,ground-level ADS-B points at CEC from 18:01 (receiver coverage that day)
+2025-02-06,19:06,landed,high,N334MS,16:15,ground-level ADS-B points at CEC from 16:15 (receiver coverage that day)
+2025-02-07,14:06,landed,high,N395MS,20:41,ground-level ADS-B points at CEC from 20:41 (receiver coverage that day)
+2025-02-08,14:06,landed,high,N395MS,14:04,ground-level ADS-B points at CEC from 14:04 (receiver coverage that day)
+2025-02-10,18:06,landed,high,N334MS,17:55,ground-level ADS-B points at CEC from 17:55 (receiver coverage that day)
+2025-02-11,18:06,landed,high,N334MS,18:12,ground-level ADS-B points at CEC from 18:12 (receiver coverage that day)
+2025-02-12,18:06,landed,high,N334MS,17:54,ground-level ADS-B points at CEC from 17:54 (receiver coverage that day)
+2025-02-13,19:06,landed,high,N334MS,19:21,ground-level ADS-B points at CEC from 19:21 (receiver coverage that day)
+2025-02-14,14:06,landed,high,N334MS,14:01,ground-level ADS-B points at CEC from 14:01 (receiver coverage that day)
+2025-02-15,14:06,landed,high,N334MS,13:44,ground-level ADS-B points at CEC from 13:44 (receiver coverage that day)
+2025-02-17,18:06,landed,high,N334MS,15:57,ground-level ADS-B points at CEC from 15:57 (receiver coverage that day)
+2025-02-18,18:06,landed,high,N334MS,18:07,ground-level ADS-B points at CEC from 18:07 (receiver coverage that day)
+2025-02-19,18:06,landed,high,N334MS,18:10,ground-level ADS-B points at CEC from 18:10 (receiver coverage that day)
+2025-02-20,19:06,landed,high,N334MS,18:58,ground-level ADS-B points at CEC from 18:58 (receiver coverage that day)
+2025-02-21,14:06,landed,high,N334MS,13:53,ground-level ADS-B points at CEC from 13:53 (receiver coverage that day)
+2025-02-22,14:06,landed,high,N334MS,14:02,ground-level ADS-B points at CEC from 14:02 (receiver coverage that day)
+2025-02-24,18:06,landed,high,N334MS,18:04,ground-level ADS-B points at CEC from 18:04 (receiver coverage that day)
+2025-02-25,18:06,landed,high,N334MS,18:04,ground-level ADS-B points at CEC from 18:04 (receiver coverage that day)
+2025-02-26,18:06,landed,high,N334MS,17:54,ground-level ADS-B points at CEC from 17:54 (receiver coverage that day)
+2025-02-27,19:06,landed,high,N334MS,18:50,ground-level ADS-B points at CEC from 18:50 (receiver coverage that day)
+2025-02-28,14:06,landed,high,N334MS,13:54,ground-level ADS-B points at CEC from 13:54 (receiver coverage that day)
+2025-03-01,14:06,landed,high,N334MS,13:46,ground-level ADS-B points at CEC from 13:46 (receiver coverage that day)
+2025-03-03,18:06,landed,high,N334MS,18:04,ground-level ADS-B points at CEC from 18:04 (receiver coverage that day)
+2025-03-04,18:06,landed,high,N334MS,17:52,ground-level ADS-B points at CEC from 17:52 (receiver coverage that day)
+2025-03-05,18:06,landed,high,N334MS,18:15,ground-level ADS-B points at CEC from 18:15 (receiver coverage that day)
+2025-03-06,19:06,landed,high,N334MS,18:58,"CEC_landed_overnight_or_long_stop: inbound 112km/19850ft, out 984min later climbing 66km/18575ft"
+2025-03-07,14:06,landed,high,N334MS,14:00,"CEC_landed_overnight_or_long_stop: inbound 104km/18575ft, out 1284min later climbing 73km/22550ft"
+2025-03-08,14:06,landed,high,N334MS,13:43,"CEC_landed_overnight_or_long_stop: inbound 127km/21975ft, out 1063min later climbing 80km/25075ft"
+2025-03-10,18:06,landed,high,N334MS,17:53,"CEC_landed_overnight_or_long_stop: inbound 109km/18025ft, out 1050min later climbing 67km/22625ft"
+2025-03-11,18:06,landed,high,N334MS,17:50,"CEC_landed_overnight_or_long_stop: inbound 115km/18450ft, out 829min later climbing 69km/22775ft"
+2025-03-12,18:06,landed,high,N334MS,17:52,"CEC_landed_overnight_or_long_stop: inbound 125km/22900ft, out 872min later climbing 78km/25175ft"
+2025-03-13,19:06,landed,high,N334MS,18:57,"CEC_landed_overnight_or_long_stop: inbound 115km/16500ft, out 1006min later climbing 62km/21400ft"
+2025-03-14,14:06,landed,high,N334MS,14:16,"CEC_landed_overnight_or_long_stop: inbound 118km/15000ft, out 1266min later climbing 72km/19450ft"
+2025-03-15,14:06,landed,high,N334MS,13:49,"CEC_landed_overnight_or_long_stop: inbound 137km/14800ft, out 1124min later climbing 77km/26075ft"
+2025-03-17,18:06,landed,high,N334MS,18:17,"CEC_landed_overnight_or_long_stop: inbound 96km/15675ft, out 785min later climbing 64km/17800ft"
+2025-03-18,18:06,landed,high,N334MS,18:49,"CEC_landed_overnight_or_long_stop: inbound 104km/17950ft, out 758min later climbing 56km/21200ft"
+2025-03-19,18:06,landed,high,N334MS,18:14,"CEC_landed_overnight_or_long_stop: inbound 108km/18825ft, out 860min later climbing 75km/21875ft"
+2025-03-20,19:06,landed,high,N334MS,18:57,"CEC_landed_overnight_or_long_stop: inbound 102km/17675ft, out 988min later climbing 63km/19775ft"
+2025-03-21,14:06,landed,high,N334MS,13:57,"CEC_landed_overnight_or_long_stop: inbound 97km/17675ft, out 1289min later climbing 64km/20725ft"
+2025-03-22,14:06,landed,high,N334MS,13:55,"CEC_landed_overnight_or_long_stop: inbound 121km/14650ft, out 1115min later climbing 76km/22600ft"
+2025-03-24,18:06,landed,high,N334MS,17:59,"CEC_landed_overnight_or_long_stop: inbound 102km/17950ft, out 803min later climbing 53km/21800ft"
+2025-03-25,18:06,landed,high,N334MS,17:45,"CEC_landed_overnight_or_long_stop: inbound 87km/15775ft, out 821min later climbing 62km/19550ft"
+2025-03-26,18:06,landed,high,N334MS,18:01,"CEC_landed_overnight_or_long_stop: inbound 83km/17500ft, out 866min later climbing 75km/23850ft"
+2025-03-27,19:06,landed,high,N334MS,18:49,"CEC_landed_overnight_or_long_stop: inbound 97km/19425ft, out 1001min later climbing 71km/20900ft"
+2025-03-28,14:06,landed,high,N334MS,13:55,"CEC_landed_overnight_or_long_stop: inbound 124km/20225ft, out 1284min later climbing 78km/21850ft"
+2025-03-29,14:06,landed,high,N334MS,13:49,"CEC_landed_overnight_or_long_stop: inbound 120km/17625ft, out 1115min later climbing 81km/25925ft"
+2025-03-31,18:06,landed,high,N395MS,17:57,"CEC_landed_overnight_or_long_stop: inbound 98km/19075ft, out 819min later climbing 63km/22650ft"
+2025-04-01,18:06,landed,high,N395MS,18:10,"CEC_landed_overnight_or_long_stop: inbound 107km/18900ft, out 800min later climbing 64km/21100ft"
+2025-04-02,18:06,landed,high,N395MS,18:02,"CEC_landed_overnight_or_long_stop: inbound 109km/18725ft, out 872min later climbing 104km/25125ft"
+2025-04-03,19:06,landed,high,N395MS,19:06,"CEC_landed_overnight_or_long_stop: inbound 144km/19750ft, out 979min later climbing 79km/22300ft"
+2025-04-04,14:06,landed,high,N395MS,14:01,"CEC_landed_overnight_or_long_stop: inbound 128km/22125ft, out 1295min later climbing 84km/22375ft"
+2025-04-05,14:06,landed,high,N395MS,13:59,"CEC_landed_overnight_or_long_stop: inbound 104km/17725ft, out 1121min later climbing 71km/22350ft"
+2025-04-07,18:06,landed,high,N334MS,18:00,"CEC_landed_overnight_or_long_stop: inbound 106km/18525ft, out 794min later climbing 62km/20250ft"
+2025-04-08,18:06,landed,high,N334MS,17:46,"CEC_landed_overnight_or_long_stop: inbound 141km/21375ft, out 820min later climbing 68km/22025ft"
+2025-04-09,18:06,landed,high,N334MS,17:57,"CEC_landed_overnight_or_long_stop: inbound 122km/16375ft, out 881min later climbing 73km/24050ft"
+2025-04-10,19:06,landed,high,N334MS,18:54,"CEC_landed_overnight_or_long_stop: inbound 133km/24350ft, out 986min later climbing 66km/22075ft"
+2025-04-11,14:06,landed,high,N395MS,14:03,"CEC_landed_overnight_or_long_stop: inbound 138km/24050ft, out 1284min later climbing 75km/23975ft"
+2025-04-12,14:06,landed,high,N395MS,13:52,"CEC_landed_overnight_or_long_stop: inbound 139km/22000ft, out 1121min later climbing 86km/25425ft"
+2025-04-14,18:06,landed,high,N395MS,17:44,"CEC_landed_overnight_or_long_stop: inbound 110km/18550ft, out 826min later climbing 79km/24300ft"
+2025-04-15,18:06,landed,high,N395MS,17:45,"CEC_landed_overnight_or_long_stop: inbound 137km/23800ft, out 834min later climbing 116km/25200ft"
+2025-04-16,18:06,landed,high,N395MS,17:56,"CEC_landed_overnight_or_long_stop: inbound 143km/24975ft, out 869min later climbing 85km/20975ft"
+2025-04-17,19:06,landed,high,N395MS,18:57,"CEC_landed_overnight_or_long_stop: inbound 142km/23550ft, out 988min later climbing 74km/23925ft"
+2025-04-18,14:06,landed,high,N395MS,13:49,"CEC_landed_overnight_or_long_stop: inbound 134km/23700ft, out 1290min later climbing 83km/22650ft"
+2025-04-19,14:06,landed,high,N395MS,13:59,"CEC_landed_overnight_or_long_stop: inbound 130km/22675ft, out 1108min later climbing 102km/25275ft"
+2025-04-21,18:06,landed,high,N395MS,17:56,"CEC_landed_overnight_or_long_stop: inbound 128km/21775ft, out 821min later climbing 113km/26825ft"
+2025-04-22,18:06,landed,high,N395MS,17:51,"CEC_landed_overnight_or_long_stop: inbound 144km/23575ft, out 816min later climbing 126km/27000ft"
+2025-04-23,18:06,landed,high,N395MS,17:54,"CEC_landed_overnight_or_long_stop: inbound 143km/21900ft, out 888min later climbing 87km/23225ft"
+2025-04-24,19:06,landed,high,N395MS,18:52,"CEC_landed_overnight_or_long_stop: inbound 131km/21775ft, out 1002min later climbing 126km/27000ft"
+2025-04-25,14:06,landed,high,N395MS,13:47,"CEC_landed_overnight_or_long_stop: inbound 140km/23025ft, out 1297min later climbing 66km/23175ft"
+2025-04-26,14:06,landed,high,N395MS,13:55,"CEC_landed_overnight_or_long_stop: inbound 113km/19000ft, out 1111min later climbing 123km/27675ft"
+2025-04-28,18:06,landed,high,N395MS,17:55,"CEC_landed_overnight_or_long_stop: inbound 128km/21500ft, out 822min later climbing 98km/24075ft"
+2025-04-29,18:06,landed,high,N395MS,17:58,"CEC_landed_overnight_or_long_stop: inbound 143km/18050ft, out 813min later climbing 79km/22475ft"
+2025-04-30,18:06,landed,high,N395MS,18:09,"CEC_landed_overnight_or_long_stop: inbound 123km/15600ft, out 858min later climbing 103km/26225ft"
+2025-05-01,19:06,landed,high,N334MS,18:48,"CEC_landed_overnight_or_long_stop: inbound 144km/19375ft, out 1011min later climbing 83km/25775ft"
+2025-05-02,14:06,landed,high,N334MS,14:02,"CEC_landed_overnight_or_long_stop: inbound 112km/19450ft, out 1281min later climbing 49km/22400ft"
+2025-05-03,14:06,landed,high,N334MS,13:56,"CEC_landed_overnight_or_long_stop: inbound 131km/20275ft, out 1105min later climbing 96km/28500ft"
+2025-05-05,18:06,landed,high,N395MS,18:02,"CEC_landed_overnight_or_long_stop: inbound 142km/18750ft, out 806min later climbing 85km/25175ft"
+2025-05-06,18:06,landed,high,N395MS,17:52,"CEC_landed_overnight_or_long_stop: inbound 150km/20250ft, out 820min later climbing 119km/27000ft"
+2025-05-07,18:06,landed,high,N395MS,17:58,"CEC_landed_overnight_or_long_stop: inbound 136km/24125ft, out 874min later climbing 111km/26650ft"
+2025-05-08,19:06,landed,high,N395MS,18:51,"CEC_landed_overnight_or_long_stop: inbound 135km/22600ft, out 990min later climbing 120km/27000ft"
+2025-05-09,14:06,landed,high,N395MS,13:50,"CEC_landed_overnight_or_long_stop: inbound 146km/21600ft, out 1299min later climbing 109km/27000ft"
+2025-05-10,14:06,landed,high,N395MS,13:49,"CEC_landed_overnight_or_long_stop: inbound 129km/21800ft, out 1116min later climbing 114km/30100ft"
+2025-05-12,18:06,landed,high,N334MS,18:02,"CEC_landed_overnight_or_long_stop: inbound 144km/22475ft, out 800min later climbing 99km/26025ft"
+2025-05-13,18:06,landed,high,N334MS,18:03,"CEC_landed_overnight_or_long_stop: inbound 137km/19350ft, out 800min later climbing 113km/25875ft"
+2025-05-14,18:06,landed,high,N334MS,17:51,"CEC_landed_overnight_or_long_stop: inbound 135km/23675ft, out 881min later climbing 87km/22075ft"
+2025-05-15,19:06,landed,high,N334MS,18:54,"CEC_landed_overnight_or_long_stop: inbound 127km/22450ft, out 984min later climbing 104km/24425ft"
+2025-05-16,14:06,landed,high,N334MS,13:58,"CEC_landed_overnight_or_long_stop: inbound 137km/23900ft, out 1280min later climbing 85km/22000ft"
+2025-05-17,14:06,landed,high,N334MS,13:52,"CEC_landed_overnight_or_long_stop: inbound 127km/22500ft, out 1114min later climbing 114km/25375ft"
+2025-05-19,18:06,landed,high,N334MS,18:01,"CEC_landed_overnight_or_long_stop: inbound 135km/24350ft, out 800min later climbing 65km/20750ft"
+2025-05-20,18:06,landed,high,N334MS,17:57,"CEC_landed_overnight_or_long_stop: inbound 137km/21000ft, out 800min later climbing 96km/26550ft"
+2025-05-21,18:06,landed,high,N334MS,17:48,"CEC_landed_overnight_or_long_stop: inbound 141km/20900ft, out 883min later climbing 125km/30275ft"
+2025-05-22,19:06,landed,high,N395MS,18:57,"CEC_landed_overnight_or_long_stop: inbound 138km/22200ft, out 988min later climbing 100km/25875ft"
+2025-05-23,14:06,landed,high,N395MS,13:51,"CEC_landed_overnight_or_long_stop: inbound 142km/24675ft, out 1294min later climbing 83km/26625ft"
+2025-05-24,14:06,landed,high,N395MS,13:51,"CEC_landed_overnight_or_long_stop: inbound 136km/24050ft, out 1107min later climbing 95km/28075ft"
+2025-05-26,18:06,landed,high,N395MS,15:33,"CEC_landed_then_departed: inbound 142km/24325ft, reappeared 77min later at 103km/25875ft climbing"
+2025-05-27,18:06,landed,high,N395MS,17:42,"CEC_landed_overnight_or_long_stop: inbound 154km/26425ft, out 823min later climbing 102km/25650ft"
+2025-05-28,18:06,landed,high,N395MS,17:56,"CEC_landed_overnight_or_long_stop: inbound 126km/22050ft, out 866min later climbing 114km/26700ft"
+2025-05-29,19:06,landed,high,N334MS,18:53,"CEC_landed_overnight_or_long_stop: inbound 130km/22575ft, out 1001min later climbing 136km/24900ft"
+2025-05-30,14:06,landed,high,N334MS,13:52,"CEC_landed_overnight_or_long_stop: inbound 129km/22750ft, out 1290min later climbing 105km/27025ft"
+2025-05-31,14:06,landed,high,N334MS,13:45,"CEC_landed_overnight_or_long_stop: inbound 121km/21450ft, out 1120min later climbing 102km/27650ft"
+2025-06-02,18:06,landed,high,N334MS,17:54,"CEC_landed_overnight_or_long_stop: inbound 138km/23950ft, out 819min later climbing 110km/24350ft"
+2025-06-03,18:06,landed,high,N334MS,17:52,"CEC_landed_overnight_or_long_stop: inbound 143km/24225ft, out 913min later climbing 105km/26225ft"
+2025-06-04,18:06,landed,high,N334MS,17:47,"CEC_landed_overnight_or_long_stop: inbound 153km/24875ft, out 876min later climbing 115km/27275ft"
+2025-06-05,19:06,landed,high,N395MS,18:53,"CEC_landed_overnight_or_long_stop: inbound 127km/22475ft, out 882min later climbing 101km/26875ft"
+2025-06-06,14:06,landed,high,N395MS,11:46,"CEC_landed_then_departed: inbound 128km/23675ft, reappeared 106min later at 109km/26625ft climbing"
+2025-06-07,14:06,landed,high,N395MS,11:35,"CEC_landed_overnight_or_long_stop: inbound 130km/23500ft, out 1251min later climbing 120km/28625ft"
+2025-06-09,18:06,landed,high,N395MS,17:53,"CEC_landed_overnight_or_long_stop: inbound 144km/23600ft, out 814min later climbing 100km/26900ft"
+2025-06-10,18:06,no_328_near_CEC,low,N395MS,,"day file(s) ['2025.06.11'] look incomplete (only 18 traces missing boundary-active ac9bef,ab600b,ab63c2,a7edf2,a4e489,a34fcc); absence of the 328 is not evidence"
+2025-06-11,18:06,landed,high,N395MS,17:54,"CEC_landed_overnight_or_long_stop: inbound 129km/22350ft, out 870min later climbing 122km/28400ft"
+2025-06-12,19:06,landed_overnight,medium-high,N334MS,,left OAK northbound after 18:15; next seen Fri 09:24 climbing 113km from CEC at 27050ft; nothing at MFR/ACV/OAK between
+2025-06-13,14:06,landed,high,N334MS,11:49,"CEC_landed_then_departed: inbound 124km/23125ft, reappeared 96min later at 113km/27000ft climbing"
+2025-06-14,14:06,no_328_near_CEC,medium,"N334MS,N328GT",,"328s seen in files: ['N334MS', 'N328GT']; none within 150 km of CEC from window start to next-day 13:00"
+2025-06-16,18:06,landed,high,N334MS,17:54,"CEC_landed_overnight_or_long_stop: inbound 143km/25050ft, out 822min later climbing 101km/25375ft"
+2025-06-17,18:06,landed,high,N334MS,17:54,"CEC_landed_overnight_or_long_stop: inbound 144km/19850ft, out 820min later climbing 106km/27025ft"
+2025-06-18,18:06,landed,high,N334MS,17:55,"CEC_landed_overnight_or_long_stop: inbound 133km/22650ft, out 872min later climbing 95km/26400ft"
+2025-06-19,19:06,landed,high,N334MS,19:00,"CEC_landed_overnight_or_long_stop: inbound 125km/25800ft, out 874min later climbing 122km/26225ft"
+2025-06-20,14:06,landed,high,N334MS,11:43,"CEC_landed_then_departed: inbound 142km/23975ft, reappeared 93min later at 113km/27075ft climbing"
+2025-06-21,14:06,landed,high,N334MS,11:41,"CEC_landed_overnight_or_long_stop: inbound 137km/25225ft, out 1246min later climbing 110km/27950ft"
+2025-06-23,18:06,landed,high,N334MS,17:59,"CEC_landed_overnight_or_long_stop: inbound 137km/27900ft, out 811min later climbing 87km/26650ft"
+2025-06-24,18:06,landed,high,N334MS,18:08,"CEC_landed_overnight_or_long_stop: inbound 119km/28050ft, out 799min later climbing 87km/24150ft"
+2025-06-25,18:06,landed,high,N334MS,17:57,"CEC_landed_overnight_or_long_stop: inbound 140km/24550ft, out 877min later climbing 113km/25625ft"
+2025-06-26,19:06,landed,high,N395MS,18:56,"CEC_landed_overnight_or_long_stop: inbound 135km/25025ft, out 872min later climbing 113km/26150ft"
+2025-06-27,14:06,landed,high,N395MS,11:53,"CEC_landed_then_departed: inbound 120km/28000ft, reappeared 92min later at 103km/25375ft climbing"
+2025-06-28,14:06,landed,high,N395MS,11:58,"CEC_landed_overnight_or_long_stop: inbound 95km/26200ft, out 1231min later climbing 115km/27625ft"
+2025-06-30,18:06,landed,high,N395MS,17:58,"CEC_landed_overnight_or_long_stop: inbound 131km/22600ft, out 813min later climbing 89km/26975ft"
+2025-07-01,18:06,landed,high,N395MS,19:42,"CEC_landed_overnight_or_long_stop: inbound 141km/20900ft, out 729min later climbing 99km/26600ft"
+2025-07-02,18:06,landed,high,N395MS,17:55,"CEC_landed_overnight_or_long_stop: inbound 151km/19100ft, out 876min later climbing 99km/27450ft"
+2025-07-03,19:06,landed,high,N395MS,19:13,"CEC_landed_overnight_or_long_stop: inbound 145km/22400ft, out 852min later climbing 128km/26350ft"
+2025-07-04,14:06,landed,high,N395MS,12:17,"CEC_landed_then_departed: inbound 143km/24500ft, reappeared 77min later at 118km/27000ft climbing"
+2025-07-05,14:06,landed,high,N395MS,13:35,"CEC_landed_then_departed: inbound 136km/23375ft, reappeared 111min later at 120km/27000ft climbing"
+2025-07-07,18:06,landed,high,N395MS,17:43,"CEC_landed_overnight_or_long_stop: inbound 121km/22075ft, out 818min later climbing 102km/27000ft"
+2025-07-08,18:06,landed,high,N395MS,17:54,"CEC_landed_overnight_or_long_stop: inbound 128km/26375ft, out 818min later climbing 123km/25575ft"
+2025-07-09,18:06,landed,high,N395MS,17:51,"CEC_landed_overnight_or_long_stop: inbound 105km/27125ft, out 876min later climbing 87km/23925ft"
+2025-07-10,19:06,unclear,low,N395MS,,328 near CEC but no classifiable event
+2025-07-11,14:06,landed,high,N334MS,17:57,"CEC_landed_then_departed: inbound 148km/20625ft, reappeared 84min later at 112km/25350ft climbing"
+2025-07-12,14:06,landed,high,N334MS,14:28,"CEC_landed_then_departed: inbound 129km/22800ft, reappeared 70min later at 106km/25225ft climbing"
+2025-07-14,18:06,landed,high,N334MS,17:48,"CEC_landed_overnight_or_long_stop: inbound 133km/23250ft, out 824min later climbing 99km/25375ft"
+2025-07-15,18:06,landed,high,N334MS,17:53,"CEC_landed_overnight_or_long_stop: inbound 150km/21750ft, out 814min later climbing 105km/25000ft"
+2025-07-16,18:06,landed,high,N334MS,17:50,"CEC_landed_overnight_or_long_stop: inbound 146km/20825ft, out 879min later climbing 109km/25875ft"
+2025-07-17,19:06,unclear,low,N395MS,,328 near CEC but no classifiable event
+2025-07-18,14:06,landed,high,N334MS,16:52,"CEC_landed_then_departed: inbound 105km/28025ft, reappeared 79min later at 115km/23300ft climbing"
+2025-07-19,14:06,landed,high,N334MS,16:25,"CEC_landed_then_departed: inbound 130km/23050ft, reappeared 71min later at 115km/25600ft climbing"
+2025-07-21,18:06,landed,high,N334MS,17:50,"CEC_landed_overnight_or_long_stop: inbound 149km/22075ft, out 810min later climbing 87km/27050ft"
+2025-07-22,18:06,landed,high,N334MS,17:46,"CEC_landed_overnight_or_long_stop: inbound 137km/22200ft, out 843min later climbing 106km/27000ft"
+2025-07-23,18:06,landed,high,N334MS,17:55,"CEC_landed_overnight_or_long_stop: inbound 118km/21600ft, out 870min later climbing 87km/26150ft"
+2025-07-24,19:06,landed,high,N395MS,18:56,"CEC_landed_overnight_or_long_stop: inbound 145km/22575ft, out 871min later climbing 107km/27000ft"
+2025-07-25,14:06,landed,high,N395MS,11:45,"CEC_landed_then_departed: inbound 144km/19175ft, reappeared 116min later at 141km/21000ft climbing"
+2025-07-26,14:06,landed,high,N395MS,14:02,"CEC_landed_overnight_or_long_stop: inbound 131km/18075ft, out 276min later climbing 110km/27000ft"
+2025-07-28,18:06,unclear,low,N334MS,,328 near CEC but no classifiable event
+2025-07-29,18:06,landed,high,N334MS,17:41,"CEC_landed_overnight_or_long_stop: inbound 130km/22150ft, out 833min later climbing 104km/27050ft"
+2025-07-30,18:06,landed,high,N334MS,18:03,"CEC_landed_overnight_or_long_stop: inbound 145km/20900ft, out 879min later climbing 110km/26800ft"
+2025-07-31,19:06,landed,high,N395MS,18:56,"CEC_landed_overnight_or_long_stop: inbound 118km/27150ft, out 890min later climbing 109km/27000ft"
+2025-08-01,14:06,landed,high,N395MS,11:52,"CEC_landed_then_departed: inbound 118km/27675ft, reappeared 204min later at 102km/26375ft climbing"
+2025-08-02,14:06,landed,high,N334MS,14:27,"CEC_landed_then_departed: inbound 142km/23075ft, reappeared 87min later at 84km/26925ft climbing"
+2025-08-04,18:06,landed,high,N334MS,17:51,"CEC_landed_overnight_or_long_stop: inbound 145km/19075ft, out 844min later climbing 88km/27050ft"
+2025-08-05,18:06,landed,high,N334MS,17:49,"CEC_landed_overnight_or_long_stop: inbound 139km/20650ft, out 832min later climbing 99km/27025ft"
+2025-08-06,18:06,landed_overnight,medium-high,N334MS,,left OAK northbound after 17:18; next seen Thu 08:18 climbing 114km from CEC at 25700ft; nothing at MFR/ACV/OAK between
+2025-08-07,19:06,landed,high,N334MS,18:51,"CEC_landed_overnight_or_long_stop: inbound 136km/17200ft, out 868min later climbing 92km/24350ft"
+2025-08-08,14:06,landed,high,N334MS,21:50,"CEC_landed_overnight_or_long_stop: inbound 140km/24200ft, out 775min later climbing 98km/23825ft"
+2025-08-09,14:06,landed,high,N334MS,14:47,"CEC_landed_then_departed: inbound 122km/21550ft, reappeared 71min later at 97km/25675ft climbing"
+2025-08-11,18:06,no_328_near_CEC,medium,"N334MS,N395MS",,"328s seen in files: ['N334MS', 'N395MS']; none within 150 km of CEC from window start to next-day 13:00"
+2025-08-12,18:06,landed,high,N334MS,17:42,"CEC_landed_overnight_or_long_stop: inbound 136km/21050ft, out 827min later climbing 95km/23025ft"
+2025-08-13,18:06,landed,high,N334MS,17:45,"CEC_landed_overnight_or_long_stop: inbound 142km/20500ft, out 882min later climbing 111km/25500ft"
+2025-08-14,19:06,landed,high,N334MS,19:19,"CEC_landed_overnight_or_long_stop: inbound 120km/20250ft, out 845min later climbing 82km/26700ft"
+2025-08-15,14:06,landed,high,N334MS,11:57,"CEC_landed_then_departed: inbound 131km/21975ft, reappeared 91min later at 82km/26050ft climbing"
+2025-08-16,14:06,landed,high,N334MS,16:14,"CEC_landed_then_departed: inbound 127km/21550ft, reappeared 76min later at 80km/27025ft climbing"
+2025-08-18,18:06,landed,high,N334MS,17:50,"CEC_landed_overnight_or_long_stop: inbound 122km/20550ft, out 814min later climbing 82km/22425ft"
+2025-08-19,18:06,landed,high,N334MS,17:54,"CEC_landed_overnight_or_long_stop: inbound 146km/19350ft, out 817min later climbing 92km/25775ft"
+2025-08-20,18:06,landed,high,N334MS,17:53,"CEC_landed_overnight_or_long_stop: inbound 126km/21750ft, out 871min later climbing 106km/26600ft"
+2025-08-21,19:06,landed,high,N334MS,18:55,"CEC_landed_overnight_or_long_stop: inbound 118km/20025ft, out 884min later climbing 103km/26600ft"
+2025-08-22,14:06,landed,high,N334MS,23:22,"CEC_landed_overnight_or_long_stop: inbound 108km/21700ft, out 744min later climbing 99km/26825ft"
+2025-08-23,14:06,landed,high,N334MS,17:46,"CEC_landed_overnight_or_long_stop: inbound 119km/25800ft, out 1073min later climbing 129km/22225ft"
+2025-08-25,18:06,landed,high,N334MS,17:49,"CEC_landed_then_departed: inbound 124km/21425ft, reappeared 82min later at 101km/27000ft climbing"
+2025-08-26,18:06,landed,high,N334MS,17:53,"CEC_landed_overnight_or_long_stop: inbound 125km/21850ft, out 821min later climbing 88km/25075ft"
+2025-08-27,18:06,no_328_near_CEC,medium,"N334MS,N395MS",,"328s seen in files: ['N334MS', 'N395MS']; none within 150 km of CEC from window start to next-day 13:00"
+2025-08-28,19:06,landed,high,N334MS,18:51,"CEC_landed_overnight_or_long_stop: inbound 131km/23350ft, out 878min later climbing 99km/27025ft"
+2025-08-29,14:06,landed,high,N334MS,11:51,"CEC_landed_then_departed: inbound 139km/21300ft, reappeared 86min later at 111km/29000ft climbing"
+2025-08-30,14:06,landed,high,N334MS,13:58,"CEC_landed_then_departed: inbound 147km/26475ft, reappeared 81min later at 112km/27000ft climbing"
+2025-09-01,18:06,landed,high,N334MS,15:37,"CEC_landed_then_departed: inbound 155km/22725ft, reappeared 109min later at 118km/27000ft climbing"
+2025-09-02,18:06,landed,high,N334MS,17:57,"CEC_landed_overnight_or_long_stop: inbound 130km/22425ft, out 818min later climbing 103km/26550ft"
+2025-09-03,18:06,landed,high,N334MS,17:49,"CEC_landed_overnight_or_long_stop: inbound 137km/22700ft, out 880min later climbing 94km/25125ft"
+2025-09-04,19:06,landed,high,N334MS,18:54,"CEC_landed_overnight_or_long_stop: inbound 111km/23425ft, out 868min later climbing 110km/27050ft"
+2025-09-05,14:06,landed,high,N334MS,11:50,"CEC_landed_then_departed: inbound 124km/22075ft, reappeared 98min later at 80km/26425ft climbing"
+2025-09-06,14:06,landed,high,N334MS,13:42,"CEC_landed_then_departed: inbound 106km/20400ft, reappeared 95min later at 79km/26525ft climbing"
+2025-09-08,18:06,unclear,low,N334MS,,328 near CEC but no classifiable event
+2025-09-09,18:06,landed,high,N334MS,17:52,"CEC_landed_overnight_or_long_stop: inbound 149km/21325ft, out 811min later climbing 81km/26150ft"
+2025-09-10,18:06,landed,high,N334MS,17:53,"CEC_landed_overnight_or_long_stop: inbound 131km/22075ft, out 877min later climbing 105km/26975ft"
+2025-09-11,19:06,unclear,low,N334MS,,328 near CEC but no classifiable event
+2025-09-12,14:06,landed,high,N334MS,13:29,"CEC_landed_then_departed: inbound 129km/21725ft, reappeared 79min later at 109km/27000ft climbing"
+2025-09-13,14:06,unclear,low,N334MS,,328 near CEC but no classifiable event
+2025-09-15,18:06,overnight_at_CEC_arrival_unobserved,medium,N334MS,,first point next morning 07:21 climbing 102km from CEC at 26275ft
+2025-09-16,18:06,unclear,low,N334MS,,328 near CEC but no classifiable event
+2025-09-17,18:06,landed,high,N334MS,17:58,"CEC_landed_overnight_or_long_stop: inbound 137km/23950ft, out 863min later climbing 101km/25875ft"
+2025-09-18,19:06,landed,high,N334MS,18:53,"CEC_landed_overnight_or_long_stop: inbound 117km/22300ft, out 873min later climbing 111km/26500ft"
+2025-09-19,14:06,landed,high,N334MS,11:55,"CEC_landed_then_departed: inbound 147km/20775ft, reappeared 207min later at 105km/27000ft climbing"
+2025-09-20,14:06,landed,high,N334MS,13:44,"CEC_landed_then_departed: inbound 124km/23975ft, reappeared 93min later at 113km/27000ft climbing"
+2025-09-22,18:06,landed,high,N334MS,17:50,"CEC_landed_overnight_or_long_stop: inbound 136km/23775ft, out 814min later climbing 110km/25325ft"
+2025-09-23,18:06,landed,high,N334MS,17:45,"CEC_landed_overnight_or_long_stop: inbound 131km/21925ft, out 812min later climbing 106km/27025ft"
+2025-09-24,18:06,landed,high,N334MS,17:45,"CEC_landed_overnight_or_long_stop: inbound 144km/21100ft, out 887min later climbing 89km/26050ft"
+2025-09-25,19:06,landed,high,N334MS,18:57,"CEC_landed_overnight_or_long_stop: inbound 132km/23250ft, out 866min later climbing 97km/26050ft"
+2025-09-26,14:06,landed,high,N334MS,11:49,"CEC_landed_then_departed: inbound 142km/23100ft, reappeared 94min later at 110km/25825ft climbing"
+2025-09-27,14:06,landed,high,N334MS,13:38,"CEC_landed_then_departed: inbound 135km/25350ft, reappeared 101min later at 82km/25550ft climbing"
+2025-09-29,18:06,landed,high,N334MS,17:49,"CEC_landed_overnight_or_long_stop: inbound 138km/23400ft, out 815min later climbing 96km/26400ft"
+2025-09-30,18:06,landed,high,N334MS,18:05,"CEC_landed_overnight_or_long_stop: inbound 125km/21625ft, out 805min later climbing 108km/27000ft"
+2025-10-01,18:06,landed,high,N334MS,17:42,"CEC_landed_overnight_or_long_stop: inbound 124km/21275ft, out 882min later climbing 92km/28625ft"
+2025-10-02,19:06,unclear,low,N395MS,,328 near CEC but no classifiable event
+2025-10-03,14:06,landed,high,N395MS,13:55,"CEC_landed_overnight_or_long_stop: inbound 142km/16150ft, out 1178min later climbing 111km/25500ft"
+2025-10-04,12:06,landed,high,N395MS,11:59,"CEC_landed_overnight_or_long_stop: inbound 132km/22950ft, out 1235min later climbing 86km/25100ft"
+2025-10-06,18:06,landed,high,N395MS,17:49,"CEC_landed_overnight_or_long_stop: inbound 123km/20000ft, out 819min later climbing 109km/24850ft"
+2025-10-07,18:06,landed,high,N395MS,17:49,"CEC_landed_overnight_or_long_stop: inbound 136km/22975ft, out 822min later climbing 97km/27025ft"
+2025-10-08,18:06,landed,high,N395MS,17:51,"CEC_landed_overnight_or_long_stop: inbound 133km/22500ft, out 882min later climbing 98km/29725ft"
+2025-10-09,19:06,landed,high,N395MS,18:48,"CEC_landed_overnight_or_long_stop: inbound 135km/21125ft, out 996min later climbing 96km/23500ft"
+2025-10-10,14:06,landed,high,N395MS,13:52,"CEC_landed_overnight_or_long_stop: inbound 132km/23575ft, out 1173min later climbing 98km/24325ft"
+2025-10-11,12:06,unclear,low,N395MS,,328 near CEC but no classifiable event
+2025-10-13,18:06,landed,high,N395MS,18:13,"CEC_landed_overnight_or_long_stop: inbound 141km/28025ft, out 789min later climbing 96km/26550ft"
+2025-10-14,18:06,no_328_near_CEC,low,"N334MS,N395MS",,"day file(s) ['2025.10.14', '2025.10.15'] look incomplete (only 25 traces; only 21 traces missing boundary-active a36616,a9026b,a3a5cf); absence of the 328 is not evidence"
+2025-10-15,18:06,landed,high,N334MS,17:58,"CEC_landed_overnight_or_long_stop: inbound 117km/20450ft, out 875min later climbing 113km/25300ft"
+2025-10-16,19:06,landed,high,N334MS,19:07,"CEC_landed_overnight_or_long_stop: inbound 126km/20750ft, out 979min later climbing 94km/24000ft"
+2025-10-17,14:06,landed,high,N334MS,14:00,"CEC_landed_overnight_or_long_stop: inbound 118km/20750ft, out 1170min later climbing 96km/22875ft"
+2025-10-18,12:06,landed,high,N334MS,12:03,"CEC_landed_overnight_or_long_stop: inbound 119km/25375ft, out 1364min later climbing 115km/25625ft"
+2025-10-20,18:06,landed,high,N334MS,17:52,"CEC_landed_overnight_or_long_stop: inbound 120km/20900ft, out 817min later climbing 89km/25050ft"
+2025-10-21,18:06,landed,high,N334MS,17:36,"CEC_landed_overnight_or_long_stop: inbound 123km/20450ft, out 831min later climbing 82km/25375ft"
+2025-10-22,18:06,landed,high,N334MS,17:49,"CEC_landed_overnight_or_long_stop: inbound 117km/19775ft, out 875min later climbing 93km/25150ft"
+2025-10-23,19:06,landed,high,N334MS,18:51,"CEC_landed_overnight_or_long_stop: inbound 123km/20450ft, out 984min later climbing 80km/27000ft"
+2025-10-24,14:06,landed,high,N334MS,13:52,"CEC_landed_overnight_or_long_stop: inbound 124km/22050ft, out 1195min later climbing 81km/26975ft"
+2025-10-25,12:06,landed,high,N334MS,11:59,"CEC_landed_overnight_or_long_stop: inbound 125km/21200ft, out 1221min later climbing 103km/26875ft"
+2025-10-27,18:06,landed,high,N395MS,17:50,"CEC_landed_overnight_or_long_stop: inbound 125km/21775ft, out 821min later climbing 96km/23200ft"
+2025-10-28,18:06,landed,high,N395MS,17:51,"CEC_landed_overnight_or_long_stop: inbound 129km/22700ft, out 819min later climbing 81km/25225ft"
+2025-10-29,18:06,landed,high,N395MS,17:51,"CEC_landed_overnight_or_long_stop: inbound 126km/22200ft, out 877min later climbing 109km/26275ft"
+2025-10-30,19:06,landed,high,N395MS,18:56,"CEC_landed_overnight_or_long_stop: inbound 136km/19975ft, out 987min later climbing 96km/23575ft"
+2025-10-31,14:06,landed,high,N395MS,13:48,"CEC_landed_overnight_or_long_stop: inbound 131km/22925ft, out 1180min later climbing 95km/24575ft"
+2025-11-01,12:06,landed,high,N395MS,12:04,"CEC_landed_overnight_or_long_stop: inbound 121km/21225ft, out 1284min later climbing 75km/23900ft"
+2025-11-03,18:06,landed,high,N395MS,17:47,"CEC_landed_overnight_or_long_stop: inbound 134km/23075ft, out 826min later climbing 109km/29000ft"
+2025-11-04,18:06,landed,high,N395MS,17:13,"CEC_landed_overnight_or_long_stop: inbound 139km/24150ft, out 851min later climbing 57km/22625ft"
+2025-11-05,18:06,landed,high,N395MS,18:07,"CEC_landed_overnight_or_long_stop: inbound 131km/22125ft, out 855min later climbing 108km/26975ft"
+2025-11-06,19:06,landed,high,N395MS,17:06,"CEC_landed_then_departed: inbound 113km/20100ft, reappeared 72min later at 88km/25600ft climbing"
+2025-11-07,14:06,landed,high,N395MS,13:51,"CEC_landed_overnight_or_long_stop: inbound 118km/20075ft, out 1169min later climbing 82km/25025ft"
+2025-11-08,12:06,landed,high,N395MS,11:54,"CEC_landed_overnight_or_long_stop: inbound 134km/22700ft, out 1219min later climbing 95km/28250ft"
+2025-11-10,18:06,landed,high,N395MS,17:52,"CEC_landed_overnight_or_long_stop: inbound 125km/21700ft, out 820min later climbing 82km/25175ft"
+2025-11-11,18:06,landed,high,N395MS,17:49,"CEC_landed_overnight_or_long_stop: inbound 131km/23000ft, out 819min later climbing 83km/24850ft"
+2025-11-12,18:06,landed,high,N395MS,17:53,"CEC_landed_overnight_or_long_stop: inbound 138km/24275ft, out 895min later climbing 114km/30500ft"
+2025-11-13,19:06,landed,high,N334MS,18:49,"CEC_landed_overnight_or_long_stop: inbound 133km/22950ft, out 1000min later climbing 104km/21025ft"
+2025-11-14,14:06,landed,high,N334MS,13:40,"CEC_landed_overnight_or_long_stop: inbound 158km/14950ft, out 1185min later climbing 83km/25125ft"
+2025-11-15,12:06,landed,high,N334MS,11:43,"CEC_landed_overnight_or_long_stop: inbound 128km/19975ft, out 1238min later climbing 94km/25925ft"
+2025-11-17,18:06,landed,high,N334MS,17:52,"CEC_landed_overnight_or_long_stop: inbound 133km/23175ft, out 810min later climbing 50km/21500ft"
+2025-11-18,18:06,landed,high,N334MS,17:57,"CEC_landed_overnight_or_long_stop: inbound 140km/18500ft, out 811min later climbing 81km/26325ft"
+2025-11-19,18:06,landed,high,N334MS,17:43,"CEC_landed_overnight_or_long_stop: inbound 145km/17975ft, out 892min later climbing 114km/29775ft"
+2025-11-20,19:06,landed,high,N334MS,18:56,"CEC_landed_overnight_or_long_stop: inbound 136km/20250ft, out 990min later climbing 96km/24000ft"
+2025-11-21,14:06,landed,high,N334MS,13:40,"CEC_landed_overnight_or_long_stop: inbound 118km/20000ft, out 1184min later climbing 83km/25050ft"
+2025-11-22,12:06,landed,high,N334MS,16:53,"CEC_landed_overnight_or_long_stop: inbound 142km/18650ft, out 940min later climbing 109km/27850ft"
+2025-11-24,18:06,landed,high,N395MS,18:05,"CEC_landed_overnight_or_long_stop: inbound 134km/17900ft, out 802min later climbing 90km/24675ft"
+2025-11-25,18:06,landed,high,N395MS,18:04,"CEC_landed_overnight_or_long_stop: inbound 122km/21125ft, out 810min later climbing 95km/23200ft"
+2025-11-26,18:06,landed,high,N395MS,17:57,"CEC_landed_overnight_or_long_stop: inbound 127km/21900ft, out 876min later climbing 90km/25950ft"
+2025-11-27,19:06,landed,high,N334MS,18:33,"CEC_landed_overnight_or_long_stop: inbound 125km/24125ft, out 1012min later climbing 85km/24875ft"
+2025-11-28,14:06,landed,high,N334MS,13:40,"CEC_landed_overnight_or_long_stop: inbound 117km/20300ft, out 1193min later climbing 93km/24725ft"
+2025-11-29,12:06,landed,high,N334MS,11:55,"CEC_landed_overnight_or_long_stop: inbound 141km/18025ft, out 1241min later climbing 101km/24025ft"
+2025-12-01,18:06,landed,high,N334MS,17:57,"CEC_landed_overnight_or_long_stop: inbound 132km/23150ft, out 805min later climbing 104km/26075ft"
+2025-12-02,18:06,landed_overnight,medium-high,N334MS,,left OAK northbound after 16:59; next seen Wed 07:10 climbing 98km from CEC at 26125ft; nothing at MFR/ACV/OAK between
+2025-12-03,18:06,landed,high,N334MS,17:56,"CEC_landed_overnight_or_long_stop: inbound 130km/22425ft, out 870min later climbing 114km/25200ft"
+2025-12-04,19:06,no_328_near_CEC,medium,"N334MS,N395MS",,"328s seen in files: ['N334MS', 'N395MS']; none within 150 km of CEC from window start to next-day 13:00"
+2025-12-05,18:06,unclear,low,N334MS,,328 near CEC but no classifiable event
+2025-12-06,12:06,landed,high,N334MS,16:39,"CEC_landed_then_departed: inbound 129km/22350ft, reappeared 55min later at 96km/23300ft climbing"
+2025-12-08,18:06,landed,high,N334MS,18:13,"CEC_landed_overnight_or_long_stop: inbound 93km/23550ft, out 790min later climbing 96km/23525ft"
+2025-12-09,18:06,landed,high,N334MS,17:46,"CEC_landed_overnight_or_long_stop: inbound 130km/21900ft, out 822min later climbing 95km/23625ft"
+2025-12-10,18:06,landed,high,N334MS,17:50,"CEC_landed_overnight_or_long_stop: inbound 123km/20175ft, out 873min later climbing 103km/27750ft"
+2025-12-11,19:06,landed,high,N334MS,18:49,"CEC_landed_overnight_or_long_stop: inbound 127km/21075ft, out 881min later climbing 89km/25075ft"
+2025-12-12,18:06,landed,high,N334MS,18:03,"CEC_landed_overnight_or_long_stop: inbound 123km/20625ft, out 923min later climbing 82km/27000ft"
+2025-12-13,12:06,landed,high,N334MS,11:39,"CEC_landed_overnight_or_long_stop: inbound 121km/22875ft, out 1249min later climbing 102km/28525ft"
+2025-12-15,18:06,landed,high,N334MS,17:40,"CEC_landed_overnight_or_long_stop: inbound 117km/25250ft, out 835min later climbing 86km/24900ft"
+2025-12-16,18:06,landed,high,N334MS,17:55,"CEC_landed_overnight_or_long_stop: inbound 131km/19925ft, out 815min later climbing 86km/24250ft"
+2025-12-17,18:06,landed,high,N334MS,17:56,"CEC_landed_overnight_or_long_stop: inbound 109km/19225ft, out 885min later climbing 97km/24850ft"
+2025-12-18,19:06,landed,high,N334MS,18:54,"CEC_landed_overnight_or_long_stop: inbound 138km/21325ft, out 872min later climbing 82km/25975ft"
+2025-12-19,18:06,landed,high,N334MS,19:41,"CEC_landed_overnight_or_long_stop: inbound 153km/12450ft, out 859min later climbing 96km/26100ft"
+2025-12-20,12:06,landed,high,N334MS,12:53,"CEC_landed_overnight_or_long_stop: inbound 138km/24450ft, out 1191min later climbing 103km/29450ft"
+2025-12-22,18:06,landed,high,N334MS,17:54,"CEC_landed_overnight_or_long_stop: inbound 129km/22425ft, out 819min later climbing 82km/28650ft"
+2025-12-23,18:06,landed,high,N334MS,17:56,"CEC_landed_overnight_or_long_stop: inbound 118km/19875ft, out 812min later climbing 77km/31000ft"
+2025-12-24,18:06,overnight_at_CEC_arrival_unobserved,medium,N334MS,,first point next morning 09:44 climbing 107km from CEC at 29000ft
+2025-12-25,19:06,landed,high,N395MS,18:33,"CEC_landed_overnight_or_long_stop: inbound 93km/27200ft, out 895min later climbing 49km/25425ft"
+2025-12-26,18:06,landed,high,N395MS,17:53,"CEC_landed_overnight_or_long_stop: inbound 134km/25500ft, out 952min later climbing 96km/24075ft"
+2025-12-27,12:06,landed,high,N395MS,11:57,"CEC_landed_overnight_or_long_stop: inbound 126km/20675ft, out 1234min later climbing 95km/23450ft"
+2025-12-29,18:06,no_328_near_CEC,medium,"N334MS,N395MS",,"328s seen in files: ['N334MS', 'N395MS']; none within 150 km of CEC from window start to next-day 13:00"
+2026-01-01,19:06,landed,high,N395MS,18:12,"CEC_landed_overnight_or_long_stop: inbound 133km/23550ft, out 791min later climbing 54km/24550ft"
+2026-01-02,18:06,landed,high,N395MS,17:52,"CEC_landed_overnight_or_long_stop: inbound 124km/21700ft, out 933min later climbing 52km/22375ft"
+2026-01-03,12:06,unclear,low,N395MS,,328 near CEC but no classifiable event
+2026-01-05,18:06,landed,high,N334MS,18:05,"CEC_landed_overnight_or_long_stop: inbound 137km/20000ft, out 807min later climbing 57km/21475ft"
+2026-01-06,18:06,landed_overnight,medium-high,N334MS,,left OAK northbound after 17:10; next seen Wed 07:04 climbing 82km from CEC at 26550ft; nothing at MFR/ACV/OAK between
+2026-01-07,18:06,landed,high,N334MS,17:51,"CEC_landed_overnight_or_long_stop: inbound 131km/23075ft, out 874min later climbing 114km/27025ft"
+2026-01-08,19:06,landed,high,N334MS,18:29,"CEC_landed_overnight_or_long_stop: inbound 144km/18475ft, out 909min later climbing 95km/24200ft"
+2026-01-09,18:06,landed,high,N334MS,17:57,"CEC_landed_overnight_or_long_stop: inbound 122km/20450ft, out 923min later climbing 92km/25100ft"
+2026-01-10,12:06,landed,high,N334MS,16:50,"CEC_landed_overnight_or_long_stop: inbound 118km/19875ft, out 947min later climbing 86km/26100ft"
+2026-01-12,18:06,landed,high,N334MS,17:39,"CEC_landed_overnight_or_long_stop: inbound 143km/19775ft, out 823min later climbing 83km/27000ft"
+2026-01-13,18:06,landed,high,N334MS,17:47,"CEC_landed_overnight_or_long_stop: inbound 122km/21350ft, out 826min later climbing 83km/27000ft"
+2026-01-14,18:06,no_328_near_CEC,medium,"N334MS,N395MS",,"328s seen in files: ['N334MS', 'N395MS']; none within 150 km of CEC from window start to next-day 13:00"
+2026-01-15,19:06,landed,high,N334MS,19:02,"CEC_landed_then_departed: inbound 133km/17775ft, reappeared 86min later at 109km/21000ft climbing"
+2026-01-16,18:06,landed,high,N395MS,21:05,"CEC_landed_then_departed: inbound 132km/23350ft, reappeared 76min later at 83km/26675ft climbing"
+2026-01-17,12:06,landed,high,N395MS,14:47,"CEC_landed_overnight_or_long_stop: inbound 121km/21875ft, out 1054min later climbing 83km/26875ft"
+2026-01-19,18:06,overnight_at_CEC_arrival_unobserved,medium,N395MS,,first point next morning 07:09 climbing 91km from CEC at 25100ft
+2026-01-20,18:06,landed,high,N395MS,17:58,"CEC_landed_overnight_or_long_stop: inbound 131km/23300ft, out 805min later climbing 89km/24700ft"
+2026-01-21,18:06,landed,high,N395MS,17:52,"CEC_landed_overnight_or_long_stop: inbound 134km/23125ft, out 872min later climbing 91km/24850ft"
+2026-01-22,19:06,no_328_near_CEC,low,"N334MS,N395MS",,day file(s) ['2026.01.23'] look incomplete (only 27 traces); absence of the 328 is not evidence
+2026-01-23,18:06,landed,high,N334MS,18:06,"CEC_landed_overnight_or_long_stop: inbound 129km/22875ft, out 920min later climbing 95km/25050ft"
+2026-01-24,12:06,landed,high,N334MS,12:02,"CEC_landed_overnight_or_long_stop: inbound 144km/17950ft, out 1230min later climbing 126km/20725ft"
+2026-01-26,18:06,landed,high,N395MS,19:40,"CEC_landed_then_departed: inbound 133km/22750ft, reappeared 91min later at 96km/23000ft climbing"
+2026-01-27,18:06,landed,high,N395MS,17:50,"CEC_landed_overnight_or_long_stop: inbound 110km/22750ft, out 826min later climbing 89km/25550ft"
+2026-01-28,18:06,landed,high,N395MS,19:36,"CEC_landed_overnight_or_long_stop: inbound 113km/27700ft, out 771min later climbing 110km/27425ft"
+2026-01-29,19:06,landed,high,N395MS,19:45,"CEC_landed_overnight_or_long_stop: inbound 123km/21575ft, out 855min later climbing 91km/25050ft"
+2026-01-30,18:06,landed,high,N395MS,17:57,"CEC_landed_overnight_or_long_stop: inbound 132km/23025ft, out 939min later climbing 88km/25525ft"
+2026-01-31,12:06,landed,high,N395MS,11:56,"CEC_landed_overnight_or_long_stop: inbound 126km/21850ft, out 1247min later climbing 109km/27325ft"
+2026-02-02,18:06,landed,high,N334MS,17:49,"CEC_landed_overnight_or_long_stop: inbound 124km/21725ft, out 820min later climbing 88km/25375ft"
+2026-02-03,18:06,landed,high,N334MS,17:55,"CEC_landed_overnight_or_long_stop: inbound 125km/21450ft, out 802min later climbing 83km/25450ft"
+2026-02-04,18:06,landed,high,N334MS,17:41,"CEC_landed_overnight_or_long_stop: inbound 130km/23675ft, out 878min later climbing 86km/26550ft"
+2026-02-05,19:06,landed,high,N334MS,18:35,"CEC_landed_overnight_or_long_stop: inbound 133km/22825ft, out 891min later climbing 80km/26800ft"
+2026-02-06,18:06,landed_overnight,medium-high,N334MS,,left OAK northbound after 17:02; next seen Sat 09:08 climbing 83km from CEC at 26775ft; nothing at MFR/ACV/OAK between
+2026-02-07,12:06,landed,high,N334MS,11:47,"CEC_landed_overnight_or_long_stop: inbound 145km/15650ft, out 1234min later climbing 102km/29450ft"
+2026-02-09,18:06,landed,high,N334MS,17:56,"CEC_landed_overnight_or_long_stop: inbound 121km/20425ft, out 897min later climbing 88km/27025ft"
+2026-02-10,18:06,landed,high,N334MS,19:11,"CEC_landed_overnight_or_long_stop: inbound 135km/21525ft, out 750min later climbing 90km/27000ft"
+2026-02-11,18:06,landed,high,N334MS,18:10,"CEC_landed_overnight_or_long_stop: inbound 135km/23600ft, out 864min later climbing 111km/27125ft"
+2026-02-12,19:06,landed,high,N395MS,19:41,"CEC_landed_overnight_or_long_stop: inbound 126km/21975ft, out 820min later climbing 92km/25125ft"
+2026-02-13,18:06,landed,high,N395MS,17:59,"CEC_landed_overnight_or_long_stop: inbound 130km/22675ft, out 934min later climbing 93km/27100ft"
+2026-02-14,12:06,landed,high,N395MS,11:49,"CEC_landed_overnight_or_long_stop: inbound 101km/22975ft, out 1188min later climbing 115km/27000ft"
+2026-02-16,18:06,landed,high,N395MS,17:55,"CEC_landed_overnight_or_long_stop: inbound 138km/20475ft, out 821min later climbing 68km/25025ft"
+2026-02-17,18:06,landed,high,N334MS,18:11,"CEC_landed_overnight_or_long_stop: inbound 134km/21825ft, out 1009min later climbing 85km/27000ft"
+2026-02-18,18:06,landed,high,N334MS,17:49,"CEC_landed_overnight_or_long_stop: inbound 138km/20275ft, out 872min later climbing 112km/28050ft"
+2026-02-19,19:06,landed,high,N334MS,18:55,"CEC_landed_overnight_or_long_stop: inbound 120km/20200ft, out 859min later climbing 83km/26425ft"
+2026-02-20,18:06,landed,high,N334MS,17:54,"CEC_landed_overnight_or_long_stop: inbound 129km/21600ft, out 926min later climbing 82km/27000ft"
+2026-02-21,12:06,unclear,low,N334MS,,328 near CEC but no classifiable event
+2026-02-23,18:06,landed,high,N395MS,17:50,"CEC_landed_overnight_or_long_stop: inbound 136km/24400ft, out 823min later climbing 91km/26675ft"
+2026-02-24,18:06,landed,high,N395MS,18:20,"CEC_landed_overnight_or_long_stop: inbound 104km/26725ft, out 796min later climbing 86km/26975ft"
+2026-02-25,18:06,landed,high,N395MS,18:01,"CEC_landed_overnight_or_long_stop: inbound 127km/21875ft, out 810min later climbing 103km/29025ft"
+2026-02-26,19:06,unclear,low,N395MS,,328 near CEC but no classifiable event
+2026-02-27,18:06,landed,high,N395MS,17:41,"CEC_landed_overnight_or_long_stop: inbound 137km/23900ft, out 1017min later climbing 82km/27000ft"
+2026-02-28,12:06,landed,high,N395MS,12:44,"CEC_landed_overnight_or_long_stop: inbound 140km/24625ft, out 1237min later climbing 95km/29100ft"
+2026-03-02,18:06,no_328_near_CEC,medium,"N334MS,N395MS",,"328s seen in files: ['N334MS', 'N395MS']; none within 150 km of CEC from window start to next-day 13:00"
+2026-03-03,18:06,no_328_near_CEC,medium,"N334MS,N395MS",,"328s seen in files: ['N334MS', 'N395MS']; none within 150 km of CEC from window start to next-day 13:00"
+2026-03-04,18:06,landed,high,N395MS,17:57,"CEC_landed_overnight_or_long_stop: inbound 139km/18975ft, out 810min later climbing 113km/25375ft"
+2026-03-05,19:06,no_328_near_CEC,low,"N395MS,N334MS",,day file(s) ['2026.03.06'] look incomplete (missing boundary-active a9026b); absence of the 328 is not evidence
+2026-03-06,18:06,landed,high,N334MS,19:19,"CEC_landed_overnight_or_long_stop: inbound 53km/8150ft, out 838min later climbing 34km/17225ft"
+2026-03-07,12:06,landed,high,N334MS,12:28,"CEC_landed_overnight_or_long_stop: inbound 61km/9200ft, out 1081min later climbing 44km/16500ft"
+2026-03-09,18:06,landed,high,N395MS,20:10,"CEC_landed_overnight_or_long_stop: inbound 69km/11100ft, out 695min later climbing 55km/18300ft"
+2026-03-10,18:06,landed,high,N395MS,18:05,"CEC_landed_overnight_or_long_stop: inbound 64km/10950ft, out 806min later climbing 46km/16225ft"
+2026-03-11,18:06,landed,high,N395MS,18:08,"CEC_landed_overnight_or_long_stop: inbound 66km/11200ft, out 806min later climbing 48km/17350ft"
+2026-03-12,19:06,landed,high,N395MS,19:00,"CEC_landed_overnight_or_long_stop: inbound 98km/23550ft, out 868min later climbing 97km/24025ft"
+2026-03-13,18:06,landed,high,N395MS,18:00,"CEC_landed_overnight_or_long_stop: inbound 130km/23050ft, out 947min later climbing 99km/23800ft"
+2026-03-14,12:06,landed,high,N395MS,11:57,"CEC_landed_overnight_or_long_stop: inbound 135km/24125ft, out 1174min later climbing 122km/24200ft"
+2026-03-16,18:06,landed,high,N395MS,17:52,"CEC_landed_overnight_or_long_stop: inbound 129km/22950ft, out 805min later climbing 85km/25375ft"
+2026-03-17,18:06,overnight_at_CEC_arrival_unobserved,medium,N395MS,,first point next morning 11:37 climbing 89km from CEC at 24400ft
+2026-03-18,18:06,landed,high,N334MS,17:51,"CEC_landed_overnight_or_long_stop: inbound 119km/21075ft, out 820min later climbing 86km/25475ft"
+2026-03-19,19:06,landed,high,N395MS,18:50,"CEC_landed_overnight_or_long_stop: inbound 127km/21975ft, out 873min later climbing 35km/13300ft"
+2026-03-20,18:06,landed,high,N395MS,18:22,"CEC_landed_overnight_or_long_stop: inbound 43km/11900ft, out 894min later climbing 30km/13925ft"
+2026-03-21,12:06,landed,high,N395MS,11:55,"CEC_landed_overnight_or_long_stop: inbound 61km/10500ft, out 1165min later climbing 36km/14450ft"
+2026-03-23,18:06,landed,high,N395MS,18:02,"CEC_landed_overnight_or_long_stop: inbound 67km/9675ft, out 795min later climbing 35km/14575ft"
+2026-03-24,18:06,landed,high,N395MS,18:10,"CEC_landed_overnight_or_long_stop: inbound 70km/10350ft, out 793min later climbing 34km/15925ft"
+2026-03-25,18:06,landed,high,N395MS,18:04,"CEC_landed_overnight_or_long_stop: inbound 56km/9550ft, out 804min later climbing 30km/15400ft"
+2026-03-26,19:06,landed,high,N334MS,19:05,"CEC_landed_overnight_or_long_stop: inbound 54km/9350ft, out 861min later climbing 30km/12675ft"
+2026-03-27,18:06,landed,high,N334MS,19:14,"CEC_landed_overnight_or_long_stop: inbound 52km/9150ft, out 852min later climbing 33km/13250ft"
+2026-03-28,12:06,landed,high,N334MS,12:00,"CEC_landed_overnight_or_long_stop: inbound 53km/9325ft, out 1283min later climbing 27km/13575ft"
+2026-03-30,18:06,landed,high,N334MS,17:51,"CEC_landed_overnight_or_long_stop: inbound 127km/22175ft, out 823min later climbing 94km/25350ft"
+2026-03-31,18:06,landed,high,N334MS,18:01,"CEC_landed_overnight_or_long_stop: inbound 50km/7925ft, out 796min later climbing 32km/14150ft"
+2026-04-01,18:06,no_328_near_CEC,low,"N334MS,N395MS",,day file(s) ['2026.04.01'] look incomplete (only 29 traces missing boundary-active a7edf2); absence of the 328 is not evidence
+2026-04-02,19:06,landed,high,N334MS,20:57,"CEC_landed_overnight_or_long_stop: inbound 48km/7325ft, out 750min later climbing 32km/12900ft"
+2026-04-03,18:06,unclear,low,N334MS,,328 near CEC but no classifiable event
+2026-04-04,12:06,landed,high,N334MS,12:39,"CEC_landed_then_departed: inbound 53km/8275ft, reappeared 59min later at 32km/14150ft climbing"
+2026-04-06,18:06,landed,high,N395MS,18:54,"CEC_landed_overnight_or_long_stop: inbound 49km/12800ft, out 747min later climbing 38km/15950ft"
+2026-04-07,18:06,landed,high,N395MS,17:45,"CEC_landed_overnight_or_long_stop: inbound 55km/9675ft, out 819min later climbing 40km/15025ft"
+2026-04-08,18:06,landed,high,N395MS,17:57,"CEC_landed_overnight_or_long_stop: inbound 60km/9725ft, out 807min later climbing 32km/14150ft"
+2026-04-09,19:06,unclear,low,N334MS,,328 near CEC but no classifiable event
+2026-04-10,18:06,landed,high,N334MS,18:02,"CEC_landed_overnight_or_long_stop: inbound 54km/11350ft, out 916min later climbing 33km/15450ft"
+2026-04-11,12:06,landed,high,N334MS,12:38,"CEC_landed_overnight_or_long_stop: inbound 45km/11900ft, out 1118min later climbing 32km/12775ft"
+2026-04-13,18:06,landed,high,N334MS,18:03,"CEC_landed_overnight_or_long_stop: inbound 55km/9450ft, out 793min later climbing 33km/12700ft"
+2026-04-14,18:06,landed,high,N334MS,18:02,"CEC_landed_overnight_or_long_stop: inbound 56km/9800ft, out 804min later climbing 32km/12625ft"
+2026-04-15,18:06,landed,high,N334MS,18:07,"CEC_landed_overnight_or_long_stop: inbound 57km/9050ft, out 794min later climbing 28km/11400ft"
+2026-04-16,19:06,unclear,low,N334MS,,328 near CEC but no classifiable event
+2026-04-17,18:06,landed,high,N334MS,18:02,"CEC_landed_overnight_or_long_stop: inbound 58km/9175ft, out 918min later climbing 35km/14125ft"
+2026-04-18,12:06,unclear,low,N334MS,,328 near CEC but no classifiable event
+2026-04-20,18:06,landed,high,N334MS,17:59,"CEC_landed_overnight_or_long_stop: inbound 55km/10250ft, out 796min later climbing 33km/15575ft"
+2026-04-21,18:06,landed,high,N334MS,17:57,"CEC_landed_overnight_or_long_stop: inbound 54km/9750ft, out 801min later climbing 33km/13600ft"
+2026-04-22,18:06,landed,high,N334MS,17:58,"CEC_landed_overnight_or_long_stop: inbound 54km/8750ft, out 801min later climbing 30km/11850ft"
+2026-04-23,19:06,landed,high,N334MS,19:02,"CEC_landed_overnight_or_long_stop: inbound 55km/9725ft, out 855min later climbing 38km/14850ft"
+2026-04-24,18:06,landed,high,N334MS,18:44,"CEC_landed_overnight_or_long_stop: inbound 50km/8975ft, out 881min later climbing 28km/11650ft"
+2026-04-25,12:06,landed,high,N334MS,12:05,"CEC_landed_overnight_or_long_stop: inbound 51km/9200ft, out 1157min later climbing 33km/13075ft"
+2026-04-27,18:06,landed,high,N334MS,18:06,"CEC_landed_overnight_or_long_stop: inbound 52km/8800ft, out 796min later climbing 29km/14025ft"
+2026-04-28,18:06,landed,high,N334MS,18:02,"CEC_landed_overnight_or_long_stop: inbound 45km/6925ft, out 792min later climbing 32km/13025ft"
+2026-04-29,18:06,landed,high,N334MS,18:06,"CEC_landed_overnight_or_long_stop: inbound 49km/7650ft, out 800min later climbing 32km/11650ft"
+2026-04-30,19:06,landed,high,N334MS,19:01,"CEC_landed_overnight_or_long_stop: inbound 52km/8200ft, out 857min later climbing 23km/14850ft"
+2026-05-01,18:06,landed,high,N334MS,17:59,"CEC_landed_overnight_or_long_stop: inbound 52km/8250ft, out 917min later climbing 33km/14925ft"
+2026-05-02,12:06,unclear,low,N334MS,,328 near CEC but no classifiable event
+2026-05-04,18:06,no_328_near_CEC,low,N334MS,,"day file(s) ['2026.05.05'] look incomplete (missing boundary-active a3e542,a3a5cf); absence of the 328 is not evidence"
+2026-05-07,19:06,landed,high,N334MS,18:49,"CEC_landed_overnight_or_long_stop: inbound 124km/23975ft, out 888min later climbing 83km/25450ft"
+2026-05-08,18:06,landed,high,N334MS,18:18,"CEC_landed_overnight_or_long_stop: inbound 59km/10000ft, out 904min later climbing 76km/21375ft"
+2026-05-09,12:06,landed,high,N334MS,12:04,"CEC_landed_overnight_or_long_stop: inbound 82km/15150ft, out 1167min later climbing 41km/17050ft"
+2026-05-11,18:06,landed,high,N334MS,17:57,"CEC_landed_overnight_or_long_stop: inbound 63km/10875ft, out 808min later climbing 27km/11350ft"
+2026-05-12,18:06,landed,high,N334MS,17:54,"CEC_landed_overnight_or_long_stop: inbound 50km/8000ft, out 809min later climbing 27km/10900ft"
+2026-05-13,18:06,landed,high,N334MS,17:47,"CEC_landed_overnight_or_long_stop: inbound 58km/9350ft, out 816min later climbing 27km/11375ft"
+2026-05-14,19:06,landed,high,N395MS,18:57,"CEC_landed_overnight_or_long_stop: inbound 56km/8825ft, out 857min later climbing 43km/16650ft"
+2026-05-15,18:06,landed,high,N395MS,18:01,"CEC_landed_overnight_or_long_stop: inbound 57km/8650ft, out 912min later climbing 37km/17475ft"
+2026-05-16,12:06,landed,high,N395MS,11:47,"CEC_landed_overnight_or_long_stop: inbound 59km/9875ft, out 1179min later climbing 39km/14875ft"
+2026-05-18,18:06,landed,high,N395MS,17:58,"CEC_landed_overnight_or_long_stop: inbound 141km/21225ft, out 816min later climbing 95km/23625ft"
+2026-05-19,18:06,landed,high,N395MS,18:19,"CEC_landed_overnight_or_long_stop: inbound 136km/23775ft, out 814min later climbing 95km/25000ft"
+2026-05-20,18:06,no_328_near_CEC,medium,N395MS,,328s seen in files: ['N395MS']; none within 150 km of CEC from window start to next-day 13:00
+2026-05-21,19:06,no_328_near_CEC,medium,N395MS,,328s seen in files: ['N395MS']; none within 150 km of CEC from window start to next-day 13:00
+2026-05-22,18:06,landed,high,N334MS,19:12,"CEC_landed_overnight_or_long_stop: inbound 55km/10275ft, out 857min later climbing 69km/20225ft"
+2026-05-23,12:06,landed,high,N334MS,12:02,"CEC_landed_then_departed: inbound 76km/14125ft, reappeared 73min later at 39km/18225ft climbing"
+2026-05-25,18:06,landed,high,N334MS,19:07,"CEC_landed_overnight_or_long_stop: inbound 42km/14875ft, out 805min later climbing 38km/15000ft"
+2026-05-26,18:06,landed,high,N334MS,18:08,"CEC_landed_overnight_or_long_stop: inbound 58km/7975ft, out 888min later climbing 90km/25425ft"
+2026-05-27,18:06,landed,high,N334MS,18:12,"CEC_landed_overnight_or_long_stop: inbound 58km/10000ft, out 798min later climbing 30km/11925ft"
+2026-05-28,19:06,landed,high,N334MS,19:00,"CEC_landed_overnight_or_long_stop: inbound 85km/11400ft, out 859min later climbing 70km/19550ft"
+2026-05-29,18:06,landed,high,N334MS,18:01,"CEC_landed_overnight_or_long_stop: inbound 97km/16100ft, out 930min later climbing 95km/23825ft"
+2026-05-30,12:06,landed,high,N334MS,12:05,"CEC_landed_overnight_or_long_stop: inbound 56km/10075ft, out 1223min later climbing 52km/18950ft"
+2026-06-01,18:06,landed,high,N395MS,17:54,"CEC_landed_overnight_or_long_stop: inbound 101km/15425ft, out 822min later climbing 96km/24425ft"
+2026-06-02,18:06,landed,high,N395MS,18:07,"CEC_landed_overnight_or_long_stop: inbound 55km/12775ft, out 802min later climbing 70km/21000ft"
+2026-06-03,18:06,landed,high,N395MS,18:06,"CEC_landed_overnight_or_long_stop: inbound 84km/16275ft, out 858min later climbing 55km/18375ft"
+2026-06-04,19:06,landed,high,N395MS,19:01,"CEC_landed_overnight_or_long_stop: inbound 53km/9075ft, out 879min later climbing 131km/24000ft"
+2026-06-05,18:06,landed,high,N395MS,18:00,"CEC_landed_overnight_or_long_stop: inbound 106km/18600ft, out 1054min later climbing 81km/16250ft"
+2026-06-06,12:06,landed,high,N395MS,14:07,"CEC_landed_overnight_or_long_stop: inbound 85km/15075ft, out 1111min later climbing 111km/27025ft"
+2026-06-08,18:06,landed,high,N395MS,18:08,"CEC_landed_overnight_or_long_stop: inbound 68km/14400ft, out 803min later climbing 64km/19700ft"
+2026-06-09,18:06,landed,high,N395MS,18:07,"CEC_landed_overnight_or_long_stop: inbound 73km/12200ft, out 802min later climbing 65km/18625ft"
+2026-06-10,18:06,no_328_near_CEC,medium,N395MS,,328s seen in files: ['N395MS']; none within 150 km of CEC from window start to next-day 13:00
+2026-06-11,19:06,landed_overnight,medium-high,N395MS,,left OAK northbound after 18:15; next seen Fri 09:09 climbing 90km from CEC at 25325ft; nothing at MFR/ACV/OAK between
+2026-06-12,18:06,landed,high,N334MS,17:54,"CEC_landed_overnight_or_long_stop: inbound 135km/23200ft, out 1048min later climbing 27km/15275ft"
+2026-06-13,12:06,landed,high,N334MS,14:01,"CEC_landed_overnight_or_long_stop: inbound 51km/8000ft, out 1110min later climbing 30km/10650ft"
+2026-06-15,18:06,landed,high,N395MS,18:35,"CEC_landed_overnight_or_long_stop: inbound 57km/14000ft, out 769min later climbing 40km/14475ft"
+2026-06-16,18:06,landed,high,N395MS,18:11,"CEC_landed_overnight_or_long_stop: inbound 57km/9925ft, out 794min later climbing 40km/13450ft"
+2026-06-17,18:06,landed,high,N395MS,18:06,"CEC_landed_overnight_or_long_stop: inbound 50km/15825ft, out 854min later climbing 52km/17100ft"
+2026-06-18,19:06,landed,high,N334MS,19:04,"CEC_landed_overnight_or_long_stop: inbound 37km/11950ft, out 871min later climbing 68km/20725ft"
+2026-06-19,18:06,landed,high,N334MS,17:49,"CEC_landed_overnight_or_long_stop: inbound 125km/21975ft, out 1060min later climbing 95km/22775ft"
+2026-06-20,12:06,landed,high,N334MS,14:05,"CEC_landed_overnight_or_long_stop: inbound 116km/20275ft, out 1108min later climbing 51km/16400ft"
+2026-06-22,18:06,landed,high,N395MS,18:02,"CEC_landed_overnight_or_long_stop: inbound 74km/15975ft, out 809min later climbing 45km/15075ft"
+2026-06-23,18:06,landed,high,N395MS,17:59,"CEC_landed_overnight_or_long_stop: inbound 50km/16925ft, out 807min later climbing 39km/14825ft"
+2026-06-24,18:06,landed,high,N395MS,18:08,"CEC_landed_overnight_or_long_stop: inbound 46km/16150ft, out 868min later climbing 32km/13825ft"
+2026-06-25,19:06,landed,high,N334MS,19:37,"CEC_landed_overnight_or_long_stop: inbound 64km/10250ft, out 833min later climbing 89km/24975ft"
+2026-06-26,18:06,landed,high,N334MS,18:06,"CEC_landed_overnight_or_long_stop: inbound 129km/23750ft, out 1047min later climbing 96km/23050ft"
+2026-06-27,12:06,landed,high,N334MS,13:56,"CEC_landed_overnight_or_long_stop: inbound 130km/22275ft, out 1067min later climbing 113km/26150ft"
+2026-06-29,18:06,landed,high,N395MS,18:04,"CEC_landed_overnight_or_long_stop: inbound 122km/21450ft, out 799min later climbing 95km/25775ft"
+2026-06-30,18:06,landed,high,N395MS,17:56,"CEC_landed_overnight_or_long_stop: inbound 141km/23775ft, out 811min later climbing 82km/26750ft"
+2026-07-01,18:06,no_328_near_CEC,medium,"N395MS,N334MS",,"328s seen in files: ['N395MS', 'N334MS']; none within 150 km of CEC from window start to next-day 13:00"
+2026-07-02,19:06,landed,high,N395MS,20:02,"CEC_landed_then_departed: inbound 142km/25400ft, reappeared 69min later at 85km/27025ft climbing"
+2026-07-03,17:06,landed,high,N395MS,16:49,"CEC_landed_then_departed: inbound 138km/24350ft, reappeared 85min later at 104km/28975ft climbing"
+2026-07-04,16:00,landed,high,N395MS,15:47,"CEC_landed_then_departed: inbound 91km/18575ft, reappeared 89min later at 88km/25800ft climbing"
+2026-07-06,18:06,landed,high,N334MS,17:53,"CEC_landed_overnight_or_long_stop: inbound 125km/22300ft, out 813min later climbing 83km/23200ft"
+2026-07-07,18:06,unclear,low,N395MS,,328 near CEC but no classifiable event
+2026-07-08,18:06,landed,high,N395MS,18:15,"CEC_landed_overnight_or_long_stop: inbound 134km/22525ft, out 799min later climbing 114km/26400ft"
+2026-07-09,19:06,landed,high,N395MS,20:14,"CEC_landed_then_departed: inbound 135km/20825ft, reappeared 76min later at 107km/27125ft climbing"
+2026-07-10,17:06,unclear,low,N395MS,,328 near CEC but no classifiable event
+2026-07-11,16:00,no_328_near_CEC,medium,N395MS,,328s seen in files: ['N395MS']; none within 150 km of CEC from window start to next-day 13:00
+2026-07-13,18:06,overnight_at_CEC_arrival_unobserved,medium,N395MS,,first point next morning 09:01 climbing 39km from CEC at 18575ft
+2026-07-14,18:06,landed,high,N395MS,18:06,"CEC_landed_overnight_or_long_stop: inbound 58km/9275ft, out 802min later climbing 39km/15650ft"
+2026-07-15,18:06,landed,high,N395MS,17:57,"CEC_landed_overnight_or_long_stop: inbound 57km/10400ft, out 804min later climbing 31km/13100ft"
+2026-07-16,19:06,landed,high,N334MS,19:28,"CEC_landed_then_departed: inbound 59km/10575ft, reappeared 56min later at 34km/16925ft climbing"
+2026-07-17,17:06,landed,high,N334MS,16:59,"CEC_landed_then_departed: inbound 42km/7200ft, reappeared 69min later at 23km/13150ft climbing"
+2026-07-18,16:00,landed,high,N395MS,16:18,"CEC_landed_then_departed: inbound 36km/12350ft, reappeared 67min later at 26km/11850ft climbing"
+2026-07-20,18:06,landed,high,N395MS,17:53,"CEC_landed_overnight_or_long_stop: inbound 50km/7950ft, out 809min later climbing 40km/15975ft"
+2026-07-21,18:06,landed,high,N395MS,17:52,"CEC_landed_overnight_or_long_stop: inbound 52km/8975ft, out 806min later climbing 28km/13200ft"
+2026-07-22,18:06,landed,high,N395MS,17:56,"CEC_landed_overnight_or_long_stop: inbound 48km/7675ft, out 802min later climbing 27km/11475ft"
+2026-07-23,19:06,landed,high,N395MS,19:09,"CEC_landed_then_departed: inbound 48km/8625ft, reappeared 56min later at 27km/13100ft climbing"
+2026-07-24,17:06,landed,high,N395MS,17:03,"CEC_landed_then_departed: inbound 38km/12100ft, reappeared 85min later at 22km/13850ft climbing"
+2026-07-25,16:00,landed,high,N395MS,16:07,"CEC_landed_then_departed: inbound 65km/11150ft, reappeared 71min later at 27km/12900ft climbing"
+2026-07-27,18:06,overnight_at_CEC_arrival_unobserved,medium,N395MS,,first point next morning 07:01 climbing 31km from CEC at 12625ft
+2026-07-28,18:06,landed,high,N395MS,17:57,"CEC_landed_overnight_or_long_stop: inbound 48km/7275ft, out 797min later climbing 33km/12850ft"
+2026-07-29,18:06,landed,high,N395MS,18:01,"CEC_landed_overnight_or_long_stop: inbound 50km/7475ft, out 796min later climbing 31km/10925ft"
+2026-07-30,19:06,no_328_near_CEC,medium,N395MS,,328s seen in files: ['N395MS']; none within 150 km of CEC from window start to next-day 13:00
+2026-07-31,17:06,unclear,low,N395MS,,328 near CEC but no classifiable event
+2026-08-01,16:00,landed,high,N395MS,21:26,"CEC_landed_then_departed: inbound 48km/7550ft, reappeared 51min later at 27km/14850ft climbing"
+2026-08-03,18:06,landed,high,N395MS,18:11,"CEC_landed_overnight_or_long_stop: inbound 49km/8550ft, out 806min later climbing 32km/11675ft"
+2026-08-04,18:06,landed,high,N395MS,17:59,"CEC_landed_overnight_or_long_stop: inbound 56km/9450ft, out 811min later climbing 33km/13900ft"
+2026-08-05,18:06,landed,high,N395MS,17:41,"CEC_landed_overnight_or_long_stop: inbound 51km/8425ft, out 825min later climbing 30km/10200ft"
+2026-08-06,19:06,landed,high,N334MS,21:39,"CEC_landed_then_departed: inbound 51km/6700ft, reappeared 66min later at 27km/11900ft climbing"
+2026-08-07,17:06,landed,high,N334MS,16:21,"CEC_landed_then_departed: inbound 54km/9500ft, reappeared 57min later at 27km/15600ft climbing"
+2026-08-08,16:00,landed,high,N334MS,16:15,"CEC_landed_then_departed: inbound 56km/11300ft, reappeared 67min later at 28km/10800ft climbing"
+2026-08-10,18:06,landed,high,N334MS,17:57,"CEC_landed_overnight_or_long_stop: inbound 49km/9500ft, out 812min later climbing 32km/12650ft"
+2026-08-11,18:06,landed,high,N334MS,18:10,"CEC_landed_overnight_or_long_stop: inbound 52km/9475ft, out 797min later climbing 33km/11700ft"
+2026-08-12,18:06,overnight_at_CEC_arrival_unobserved,medium,N334MS,,first point next morning 07:13 climbing 27km from CEC at 10625ft
+2026-08-13,19:06,landed,high,N334MS,18:50,"CEC_landed_then_departed: inbound 53km/8900ft, reappeared 70min later at 31km/13425ft climbing"
+2026-08-14,17:06,landed,high,N334MS,17:04,"CEC_landed_then_departed: inbound 52km/6800ft, reappeared 68min later at 24km/11075ft climbing"
+2026-08-15,16:00,landed,high,N395MS,16:05,"CEC_landed_then_departed: inbound 67km/10700ft, reappeared 77min later at 38km/19175ft climbing"
+2026-08-17,18:06,unclear,low,N395MS,,328 near CEC but no classifiable event
+2026-08-18,18:06,landed,high,N395MS,18:14,"CEC_landed_overnight_or_long_stop: inbound 52km/7975ft, out 785min later climbing 28km/15050ft"
+2026-08-19,18:06,no_328_near_CEC,medium,"N395MS,N334MS",,"328s seen in files: ['N395MS', 'N334MS']; none within 150 km of CEC from window start to next-day 13:00"
+2026-08-20,19:06,landed,high,N395MS,19:21,"CEC_landed_then_departed: inbound 49km/17625ft, reappeared 54min later at 28km/12950ft climbing"
+2026-08-21,17:06,landed,high,N395MS,17:07,"CEC_landed_then_departed: inbound 52km/8150ft, reappeared 67min later at 41km/15400ft climbing"
+2026-08-22,16:00,landed,high,N395MS,16:21,"CEC_landed_then_departed: inbound 54km/8975ft, reappeared 62min later at 27km/16525ft climbing"
+2026-08-24,18:06,landed,high,N334MS,17:51,"CEC_landed_overnight_or_long_stop: inbound 50km/8625ft, out 810min later climbing 35km/14450ft"
+2026-08-25,18:06,landed,high,N334MS,17:56,"CEC_landed_overnight_or_long_stop: inbound 50km/7750ft, out 803min later climbing 20km/9125ft"
+2026-08-26,18:06,landed,high,N334MS,17:56,"CEC_landed_overnight_or_long_stop: inbound 51km/8975ft, out 813min later climbing 37km/16950ft"
+2026-08-27,19:06,landed,high,N395MS,20:38,"CEC_landed_then_departed: inbound 51km/15625ft, reappeared 69min later at 37km/18000ft climbing"
+2026-08-28,17:06,landed,high,N395MS,17:08,"CEC_landed_then_departed: inbound 69km/11925ft, reappeared 80min later at 43km/18000ft climbing"
+2026-08-29,16:00,landed,high,N395MS,16:05,"CEC_landed_then_departed: inbound 57km/10175ft, reappeared 69min later at 27km/15150ft climbing"
+2026-08-31,18:06,landed,high,N395MS,17:56,"CEC_landed_overnight_or_long_stop: inbound 54km/11325ft, out 795min later climbing 35km/15925ft"
+2026-09-01,18:06,landed,high,N395MS,18:01,"CEC_landed_overnight_or_long_stop: inbound 53km/8600ft, out 795min later climbing 34km/16300ft"
+2026-09-02,18:06,landed,high,N395MS,18:04,"CEC_landed_overnight_or_long_stop: inbound 57km/9500ft, out 793min later climbing 40km/17150ft"
+2026-09-03,19:06,landed,high,N395MS,18:55,"CEC_landed_then_departed: inbound 47km/10250ft, reappeared 58min later at 35km/14325ft climbing"
+2026-09-04,17:06,landed,high,N395MS,16:59,"CEC_landed_then_departed: inbound 58km/10100ft, reappeared 59min later at 52km/18025ft climbing"
+2026-09-05,16:00,landed,high,N395MS,16:16,"CEC_landed_then_departed: inbound 60km/10650ft, reappeared 57min later at 27km/15925ft climbing"
+2026-09-07,18:06,landed,high,N395MS,19:04,"CEC_landed_then_departed: inbound 49km/8325ft, reappeared 62min later at 35km/16425ft climbing"
+2026-09-08,18:06,landed,high,N395MS,18:57,"CEC_landed_overnight_or_long_stop: inbound 66km/12175ft, out 751min later climbing 38km/14425ft"
+2026-09-09,18:06,landed,high,N395MS,18:11,"CEC_landed_overnight_or_long_stop: inbound 62km/8925ft, out 794min later climbing 45km/16275ft"
+2026-09-10,19:06,missed->MFR,medium-high,N395MS,,"CEC_missed_approach_or_hold at 18:43; short gap 31min; in 49km/8225ft, out 101km/9050ft; then first ground/stop at MFR"
+2026-09-11,17:06,landed,high,N395MS,17:18,"CEC_landed_then_departed: inbound 67km/11500ft, reappeared 71min later at 46km/16000ft climbing"
+2026-09-12,16:00,landed,high,N395MS,16:09,"CEC_landed_then_departed: inbound 57km/11825ft, reappeared 61min later at 34km/15475ft climbing"
+2026-09-14,18:06,landed,high,N334MS,18:11,"CEC_landed_overnight_or_long_stop: inbound 56km/10900ft, out 792min later climbing 34km/11850ft"
+2026-09-15,18:06,landed,high,N334MS,17:46,"CEC_landed_overnight_or_long_stop: inbound 70km/10450ft, out 821min later climbing 36km/13300ft"
+2026-09-16,18:06,landed,high,N334MS,18:07,"CEC_landed_overnight_or_long_stop: inbound 55km/10675ft, out 796min later climbing 42km/16675ft"
+2026-09-17,19:06,landed,high,N334MS,19:02,"CEC_landed_then_departed: inbound 44km/6875ft, reappeared 61min later at 27km/13700ft climbing"
+2026-09-18,17:06,landed,high,N334MS,17:07,"CEC_landed_then_departed: inbound 52km/9075ft, reappeared 80min later at 41km/17650ft climbing"
+2026-09-19,16:00,landed,high,N334MS,16:09,"CEC_landed_then_departed: inbound 54km/8825ft, reappeared 73min later at 35km/16525ft climbing"
+2026-09-21,18:06,landed,high,N334MS,18:02,"CEC_landed_overnight_or_long_stop: inbound 60km/10075ft, out 799min later climbing 36km/14975ft"
+2026-09-22,18:06,landed,high,N334MS,18:01,"CEC_landed_overnight_or_long_stop: inbound 57km/9975ft, out 808min later climbing 35km/13000ft"
+2026-09-23,18:06,landed,high,N395MS,18:06,"CEC_landed_overnight_or_long_stop: inbound 59km/10200ft, out 815min later climbing 42km/16050ft"
+2026-09-24,19:06,landed,high,N395MS,18:54,"CEC_landed_then_departed: inbound 57km/14725ft, reappeared 65min later at 37km/16050ft climbing"
+2026-09-25,17:06,unclear,low,N395MS,,328 near CEC but no classifiable event
+2026-09-26,16:00,no_328_near_CEC,medium,"N395MS,N334MS",,"328s seen in files: ['N395MS', 'N334MS']; none within 150 km of CEC from window start to next-day 13:00"
+2026-09-28,18:06,no_328_near_CEC,medium,"N395MS,N334MS",,"328s seen in files: ['N395MS', 'N334MS']; none within 150 km of CEC from window start to next-day 13:00"
+2026-09-29,18:06,landed,high,N334MS,17:53,"CEC_landed_overnight_or_long_stop: inbound 53km/9400ft, out 809min later climbing 38km/14400ft"
+2026-09-30,18:06,landed,high,N334MS,17:57,"CEC_landed_overnight_or_long_stop: inbound 57km/10025ft, out 919min later climbing 44km/15275ft"
+2026-10-02,18:42,landed,high,N334MS,18:28,"CEC_landed_overnight_or_long_stop: inbound 63km/10150ft, out 830min later climbing 36km/14675ft"
+2026-10-03,18:42,missed->OAK,medium-high,N334MS,,"CEC_missed_approach_or_hold at 18:08; short gap 23min; in 56km/12000ft, out 105km/19000ft; then first ground/stop at OAK"
+2026-10-05,18:42,landed,high,N334MS,19:39,"CEC_landed_overnight_or_long_stop: inbound 53km/10600ft, out 833min later climbing 113km/21300ft"
+2026-10-06,18:42,no_328_near_CEC,medium,N334MS,,328s seen in files: ['N334MS']; none within 150 km of CEC from window start to next-day 13:00
+2026-10-07,18:42,landed,high,N334MS,18:33,"CEC_landed_overnight_or_long_stop: inbound 40km/9275ft, out 976min later climbing 112km/21450ft"
+2026-10-09,18:42,landed,high,N334MS,18:38,"CEC_landed_overnight_or_long_stop: inbound 46km/8300ft, out 833min later climbing 27km/15125ft"
+2026-10-10,18:42,landed,high,N334MS,21:44,"CEC_landed_overnight_or_long_stop: inbound 56km/10050ft, out 1015min later climbing 31km/15075ft"
+2026-10-12,18:42,landed,high,N334MS,19:03,"CEC_landed_overnight_or_long_stop: inbound 53km/4950ft, out 804min later climbing 30km/10100ft"
+2026-10-13,18:42,landed,high,N334MS,18:39,"CEC_landed_overnight_or_long_stop: inbound 49km/8475ft, out 829min later climbing 28km/10750ft"
+2026-10-14,18:42,landed,high,N334MS,18:38,"CEC_landed_overnight_or_long_stop: inbound 47km/7675ft, out 829min later climbing 31km/11075ft"
+2026-10-16,18:42,landed_overnight,medium-high,N334MS,,left OAK northbound after 17:50; next seen Sat 08:27 climbing 30km from CEC at 12100ft; nothing at MFR/ACV/OAK between
+2026-10-17,18:42,landed,high,N334MS,18:34,"CEC_landed_overnight_or_long_stop: inbound 47km/7375ft, out 828min later climbing 45km/15975ft"

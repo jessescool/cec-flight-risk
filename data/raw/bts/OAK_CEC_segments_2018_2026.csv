@@ -1,0 +1,216 @@
+YEAR,MONTH,UNIQUE_CARRIER,UNIQUE_CARRIER_NAME,ORIGIN,DEST,AIRCRAFT_TYPE,AIRCRAFT_CONFIG,CLASS,DEPARTURES_SCHEDULED,DEPARTURES_PERFORMED,SEATS,PASSENGERS,DISTANCE
+2018,4,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,L,0.00,21.00,630.00,382.00,300.00
+2018,4,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,L,0.00,21.00,630.00,339.00,300.00
+2018,5,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,L,0.00,31.00,930.00,643.00,300.00
+2018,5,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,L,0.00,31.00,930.00,624.00,300.00
+2018,6,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,L,0.00,30.00,900.00,655.00,300.00
+2018,6,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,L,0.00,30.00,900.00,658.00,300.00
+2018,7,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,L,0.00,31.00,1147.00,761.00,300.00
+2018,7,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,L,0.00,30.00,1110.00,725.00,300.00
+2018,8,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,L,0.00,31.00,930.00,801.00,300.00
+2018,8,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,L,0.00,29.00,870.00,719.00,300.00
+2018,9,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,L,0.00,30.00,900.00,722.00,300.00
+2018,9,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,L,0.00,28.00,840.00,676.00,300.00
+2018,10,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,L,0.00,31.00,930.00,699.00,300.00
+2018,10,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,L,0.00,29.00,870.00,606.00,300.00
+2018,11,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,L,0.00,30.00,900.00,651.00,300.00
+2018,11,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,L,0.00,28.00,840.00,622.00,300.00
+2018,12,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,30.00,900.00,662.00,300.00
+2018,12,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,28.00,840.00,639.00,300.00
+2019,1,FX,Federal Express Corporation,CEC,OAK,416,2,G,1.00,1.00,0.00,0.00,300.00
+2019,1,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,30.00,900.00,600.00,300.00
+2019,1,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,30.00,900.00,549.00,300.00
+2019,2,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,28.00,840.00,575.00,300.00
+2019,2,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,28.00,840.00,534.00,300.00
+2019,3,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,36.00,1080.00,743.00,300.00
+2019,3,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,36.00,1080.00,739.00,300.00
+2019,4,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,30.00,900.00,689.00,300.00
+2019,4,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,30.00,900.00,641.00,300.00
+2019,5,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,41.00,1230.00,787.00,300.00
+2019,5,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,41.00,1230.00,770.00,300.00
+2019,6,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,658,1,F,0.00,47.00,846.00,798.00,300.00
+2019,6,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,47.00,1739.00,823.00,300.00
+2019,7,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,47.00,1410.00,1004.00,300.00
+2019,7,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,L,0.00,1.00,30.00,4.00,300.00
+2019,7,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,45.00,1350.00,1007.00,300.00
+2019,8,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,49.00,1470.00,984.00,300.00
+2019,8,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,48.00,1440.00,947.00,300.00
+2019,9,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,39.00,1443.00,1211.00,300.00
+2019,9,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,39.00,1443.00,721.00,300.00
+2019,10,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,31.00,930.00,746.00,300.00
+2019,10,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,29.00,870.00,682.00,300.00
+2019,11,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,24.00,720.00,605.00,300.00
+2019,11,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,23.00,690.00,520.00,300.00
+2019,12,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,31.00,930.00,761.00,300.00
+2019,12,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,30.00,900.00,699.00,300.00
+2020,1,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,29.00,870.00,629.00,300.00
+2020,1,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,31.00,930.00,654.00,300.00
+2020,2,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,29.00,870.00,655.00,300.00
+2020,2,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,29.00,870.00,654.00,300.00
+2020,3,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,31.00,930.00,348.00,300.00
+2020,3,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,31.00,930.00,353.00,300.00
+2020,4,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,30.00,900.00,80.00,300.00
+2020,4,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,30.00,900.00,58.00,300.00
+2020,5,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,31.00,930.00,142.00,300.00
+2020,5,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,31.00,930.00,136.00,300.00
+2020,6,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,30.00,900.00,190.00,300.00
+2020,6,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,30.00,900.00,230.00,300.00
+2020,7,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,31.00,930.00,328.00,300.00
+2020,7,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,31.00,930.00,306.00,300.00
+2020,8,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,31.00,930.00,312.00,300.00
+2020,8,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,30.00,900.00,325.00,300.00
+2020,9,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,29.00,870.00,389.00,300.00
+2020,9,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,30.00,900.00,417.00,300.00
+2020,10,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,31.00,930.00,388.00,300.00
+2020,10,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,31.00,930.00,394.00,300.00
+2020,11,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,30.00,900.00,297.00,300.00
+2020,11,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,30.00,900.00,335.00,300.00
+2020,12,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,29.00,870.00,267.00,300.00
+2020,12,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,28.00,840.00,258.00,300.00
+2021,1,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,29.00,870.00,251.00,300.00
+2021,1,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,30.00,900.00,234.00,300.00
+2021,2,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,28.00,840.00,270.00,300.00
+2021,2,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,28.00,840.00,290.00,300.00
+2021,3,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,31.00,930.00,459.00,300.00
+2021,3,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,L,0.00,1.00,30.00,8.00,300.00
+2021,3,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,31.00,930.00,436.00,300.00
+2021,4,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,27.00,810.00,478.00,300.00
+2021,4,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,27.00,810.00,455.00,300.00
+2021,5,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,37.00,1110.00,566.00,300.00
+2021,5,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,37.00,1110.00,508.00,300.00
+2021,6,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,76.00,2280.00,1440.00,300.00
+2021,6,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,76.00,2280.00,1462.00,300.00
+2021,7,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,40.00,1200.00,841.00,300.00
+2021,7,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,40.00,1200.00,787.00,300.00
+2021,8,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,L,0.00,1.00,30.00,24.00,300.00
+2021,8,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,39.00,1170.00,728.00,300.00
+2021,8,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,41.00,1230.00,696.00,300.00
+2021,9,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,37.00,1110.00,711.00,300.00
+2021,9,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,36.00,1080.00,696.00,300.00
+2021,10,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,30.00,900.00,622.00,300.00
+2021,10,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,30.00,900.00,579.00,300.00
+2021,11,FX,Federal Express Corporation,CEC,OAK,416,2,G,1.00,1.00,0.00,0.00,300.00
+2021,11,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,30.00,900.00,628.00,300.00
+2021,11,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,30.00,900.00,636.00,300.00
+2021,12,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,31.00,930.00,650.00,300.00
+2021,12,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,30.00,900.00,568.00,300.00
+2022,1,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,30.00,900.00,455.00,300.00
+2022,1,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,30.00,900.00,450.00,300.00
+2022,2,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,26.00,780.00,449.00,300.00
+2022,2,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,26.00,780.00,432.00,300.00
+2022,3,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,31.00,930.00,649.00,300.00
+2022,3,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,L,0.00,31.00,930.00,658.00,300.00
+2022,3,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,L,0.00,30.00,900.00,619.00,300.00
+2022,3,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,30.00,900.00,621.00,300.00
+2022,4,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,30.00,900.00,653.00,300.00
+2022,4,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,30.00,900.00,611.00,300.00
+2022,5,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,33.00,990.00,637.00,300.00
+2022,5,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,33.00,990.00,650.00,300.00
+2022,6,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,33.00,990.00,680.00,300.00
+2022,6,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,33.00,1221.00,691.00,300.00
+2022,7,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,40.00,1200.00,844.00,300.00
+2022,7,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,L,0.00,1.00,30.00,20.00,300.00
+2022,7,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,39.00,1170.00,842.00,300.00
+2022,8,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,37.00,1110.00,812.00,300.00
+2022,8,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,38.00,1140.00,777.00,300.00
+2022,9,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,37.00,1110.00,736.00,300.00
+2022,9,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,37.00,1110.00,638.00,300.00
+2022,10,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,27.00,810.00,548.00,300.00
+2022,10,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,27.00,810.00,496.00,300.00
+2022,11,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,29.00,870.00,564.00,300.00
+2022,11,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,29.00,870.00,549.00,300.00
+2022,12,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,L,0.00,1.00,30.00,0.00,300.00
+2022,12,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,27.00,810.00,503.00,300.00
+2022,12,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,28.00,840.00,525.00,300.00
+2023,1,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,28.00,840.00,479.00,300.00
+2023,1,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,29.00,870.00,451.00,300.00
+2023,2,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,22.00,660.00,423.00,300.00
+2023,2,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,22.00,660.00,367.00,300.00
+2023,3,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,31.00,930.00,603.00,300.00
+2023,3,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,31.00,930.00,580.00,300.00
+2023,4,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,29.00,870.00,607.00,300.00
+2023,4,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,29.00,870.00,566.00,300.00
+2023,5,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,37.00,1110.00,708.00,300.00
+2023,5,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,37.00,1110.00,725.00,300.00
+2023,6,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,41.00,1230.00,770.00,300.00
+2023,6,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,40.00,1200.00,787.00,300.00
+2023,7,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,44.00,1320.00,833.00,300.00
+2023,7,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,43.00,1290.00,809.00,300.00
+2023,8,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,41.00,1230.00,793.00,300.00
+2023,8,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,41.00,1230.00,725.00,300.00
+2023,9,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,38.00,1140.00,698.00,300.00
+2023,9,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,38.00,1140.00,668.00,300.00
+2023,10,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,31.00,930.00,614.00,300.00
+2023,10,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,31.00,930.00,568.00,300.00
+2023,11,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,31.00,930.00,627.00,300.00
+2023,11,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,31.00,930.00,595.00,300.00
+2023,12,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,29.00,870.00,638.00,300.00
+2023,12,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,30.00,900.00,596.00,300.00
+2024,1,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,29.00,870.00,455.00,300.00
+2024,1,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,30.00,900.00,412.00,300.00
+2024,2,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,28.00,840.00,456.00,300.00
+2024,2,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,28.00,840.00,467.00,300.00
+2024,3,AN,"ADVANCED AIR, LLC",CEC,OAK,449,1,F,15.00,15.00,450.00,264.00,300.00
+2024,3,AN,"ADVANCED AIR, LLC",OAK,CEC,449,1,F,15.00,15.00,450.00,277.00,300.00
+2024,3,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,CEC,OAK,674,1,F,0.00,16.00,480.00,284.00,300.00
+2024,3,LF,CFM Inc d/b/a Contour Airlines d/b/a One Jet Shuttle,OAK,CEC,674,1,F,0.00,15.00,450.00,299.00,300.00
+2024,4,AN,"ADVANCED AIR, LLC",CEC,OAK,449,1,F,30.00,30.00,900.00,563.00,300.00
+2024,4,AN,"ADVANCED AIR, LLC",OAK,CEC,449,1,F,29.00,29.00,870.00,478.00,300.00
+2024,5,AN,"ADVANCED AIR, LLC",CEC,OAK,449,1,F,31.00,31.00,930.00,541.00,300.00
+2024,5,AN,"ADVANCED AIR, LLC",OAK,CEC,449,1,F,30.00,30.00,900.00,544.00,300.00
+2024,6,AN,"ADVANCED AIR, LLC",CEC,OAK,449,1,F,30.00,30.00,900.00,629.00,300.00
+2024,6,AN,"ADVANCED AIR, LLC",OAK,CEC,449,1,F,29.00,29.00,870.00,636.00,300.00
+2024,7,AN,"ADVANCED AIR, LLC",CEC,OAK,449,1,F,33.00,33.00,990.00,697.00,300.00
+2024,7,AN,"ADVANCED AIR, LLC",OAK,CEC,449,1,F,34.00,34.00,1020.00,687.00,300.00
+2024,8,AN,"ADVANCED AIR, LLC",CEC,OAK,449,1,F,36.00,36.00,1080.00,679.00,300.00
+2024,8,AN,"ADVANCED AIR, LLC",OAK,CEC,449,1,F,35.00,35.00,1050.00,655.00,300.00
+2024,9,AN,"ADVANCED AIR, LLC",CEC,OAK,449,1,F,29.00,29.00,870.00,568.00,300.00
+2024,9,AN,"ADVANCED AIR, LLC",OAK,CEC,449,1,F,26.00,26.00,780.00,449.00,300.00
+2024,10,AN,"ADVANCED AIR, LLC",CEC,OAK,449,1,F,30.00,30.00,900.00,486.00,300.00
+2024,10,AN,"ADVANCED AIR, LLC",OAK,CEC,449,1,F,30.00,30.00,900.00,501.00,300.00
+2024,11,AN,"ADVANCED AIR, LLC",CEC,OAK,449,1,F,29.00,29.00,870.00,439.00,300.00
+2024,11,AN,"ADVANCED AIR, LLC",OAK,CEC,449,1,F,30.00,30.00,900.00,473.00,300.00
+2024,12,AN,"ADVANCED AIR, LLC",CEC,OAK,449,1,F,31.00,31.00,930.00,540.00,300.00
+2024,12,AN,"ADVANCED AIR, LLC",OAK,CEC,449,1,F,28.00,28.00,840.00,437.00,300.00
+2025,1,AN,"ADVANCED AIR, LLC",CEC,OAK,449,1,F,31.00,31.00,930.00,425.00,300.00
+2025,1,AN,"ADVANCED AIR, LLC",OAK,CEC,449,1,F,32.00,32.00,960.00,443.00,300.00
+2025,2,AN,"ADVANCED AIR, LLC",CEC,OAK,449,1,F,28.00,28.00,840.00,358.00,300.00
+2025,2,AN,"ADVANCED AIR, LLC",OAK,CEC,449,1,F,28.00,28.00,840.00,374.00,300.00
+2025,3,AN,"ADVANCED AIR, LLC",CEC,OAK,449,1,F,31.00,31.00,930.00,496.00,300.00
+2025,3,AN,"ADVANCED AIR, LLC",OAK,CEC,449,1,F,31.00,31.00,930.00,469.00,300.00
+2025,4,AN,"ADVANCED AIR, LLC",CEC,OAK,449,1,F,30.00,30.00,900.00,502.00,300.00
+2025,4,AN,"ADVANCED AIR, LLC",OAK,CEC,449,1,F,29.00,29.00,870.00,458.00,300.00
+2025,5,AN,"ADVANCED AIR, LLC",CEC,OAK,449,1,F,31.00,31.00,930.00,497.00,300.00
+2025,5,AN,"ADVANCED AIR, LLC",OAK,CEC,449,1,F,32.00,32.00,960.00,525.00,300.00
+2025,6,AN,"ADVANCED AIR, LLC",CEC,OAK,449,1,F,33.00,33.00,990.00,506.00,300.00
+2025,6,AN,"ADVANCED AIR, LLC",OAK,CEC,449,1,F,31.00,31.00,930.00,510.00,300.00
+2025,7,AN,"ADVANCED AIR, LLC",CEC,OAK,449,1,F,33.00,33.00,990.00,549.00,300.00
+2025,7,AN,"ADVANCED AIR, LLC",OAK,CEC,449,1,F,30.00,30.00,900.00,523.00,300.00
+2025,8,AN,"ADVANCED AIR, LLC",CEC,OAK,449,1,F,33.00,33.00,990.00,538.00,300.00
+2025,8,AN,"ADVANCED AIR, LLC",OAK,CEC,449,1,F,34.00,34.00,1020.00,598.00,300.00
+2025,9,AN,"ADVANCED AIR, LLC",CEC,OAK,458,1,F,5.00,5.00,45.00,34.00,300.00
+2025,9,AN,"ADVANCED AIR, LLC",CEC,OAK,449,1,F,31.00,31.00,930.00,472.00,300.00
+2025,9,AN,"ADVANCED AIR, LLC",OAK,CEC,458,1,F,6.00,6.00,54.00,43.00,300.00
+2025,9,AN,"ADVANCED AIR, LLC",OAK,CEC,449,1,F,29.00,29.00,870.00,398.00,300.00
+2025,10,AN,"ADVANCED AIR, LLC",CEC,OAK,449,1,F,31.00,31.00,930.00,518.00,300.00
+2025,10,AN,"ADVANCED AIR, LLC",OAK,CEC,449,1,F,32.00,32.00,960.00,470.00,300.00
+2025,11,AN,"ADVANCED AIR, LLC",CEC,OAK,449,1,F,29.00,29.00,870.00,426.00,300.00
+2025,11,AN,"ADVANCED AIR, LLC",OAK,CEC,449,1,F,28.00,28.00,840.00,430.00,300.00
+2025,12,AN,"ADVANCED AIR, LLC",CEC,OAK,449,1,F,31.00,31.00,930.00,524.00,300.00
+2025,12,AN,"ADVANCED AIR, LLC",OAK,CEC,449,1,F,29.00,29.00,870.00,461.00,300.00
+2026,1,AN,"ADVANCED AIR, LLC",CEC,OAK,449,1,F,29.00,29.00,870.00,373.00,300.00
+2026,1,AN,"ADVANCED AIR, LLC",OAK,CEC,449,1,F,29.00,29.00,870.00,401.00,300.00
+2026,2,AN,"ADVANCED AIR, LLC",CEC,OAK,449,1,F,26.00,26.00,780.00,365.00,300.00
+2026,2,AN,"ADVANCED AIR, LLC",OAK,CEC,449,1,F,26.00,26.00,780.00,373.00,300.00
+2026,3,AN,"ADVANCED AIR, LLC",CEC,OAK,458,1,F,7.00,7.00,63.00,33.00,300.00
+2026,3,AN,"ADVANCED AIR, LLC",CEC,OAK,449,1,F,27.00,27.00,810.00,467.00,300.00
+2026,3,AN,"ADVANCED AIR, LLC",OAK,CEC,458,1,F,4.00,4.00,36.00,23.00,300.00
+2026,3,AN,"ADVANCED AIR, LLC",OAK,CEC,449,1,F,27.00,27.00,810.00,407.00,300.00
+2026,4,AN,"ADVANCED AIR, LLC",CEC,OAK,449,1,F,30.00,30.00,900.00,471.00,300.00
+2026,4,AN,"ADVANCED AIR, LLC",OAK,CEC,449,1,F,29.00,29.00,870.00,486.00,300.00
+2026,5,AN,"ADVANCED AIR, LLC",CEC,OAK,449,1,F,30.00,30.00,900.00,483.00,300.00
+2026,5,AN,"ADVANCED AIR, LLC",OAK,CEC,449,1,F,30.00,30.00,900.00,480.00,300.00
+2026,6,AN,"ADVANCED AIR, LLC",CEC,OAK,449,1,F,34.00,34.00,1020.00,612.00,300.00
+2026,6,AN,"ADVANCED AIR, LLC",OAK,CEC,449,1,F,35.00,35.00,1050.00,642.00,300.00
+2026,7,AN,"ADVANCED AIR, LLC",CEC,OAK,449,1,F,30.00,30.00,900.00,485.00,300.00
+2026,7,AN,"ADVANCED AIR, LLC",OAK,CEC,449,1,F,31.00,31.00,930.00,481.00,300.00

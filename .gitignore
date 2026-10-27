@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+data/raw/adsb_traces/
+data/raw/wayback/
+data/raw/taf_cec_all.txt
+data/raw/bcraa_packets*/pdf/
+data/logs/
+.DS_Store

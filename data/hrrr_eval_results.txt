@@ -1,0 +1,27 @@
+rows    26283
+HRRR days with labels: 2117  2020-12-04..2026-10-17  y1=391 y2=176
+
+=== Target: marginal-or-worse at arrival (y1). Rolling quarterly CV 2025Q1-2026Q4, same window as the ensemble audit ===
+Ensemble (ECMWF/GFS/GEM/ICON, Fri 00Z)         n= 440 events= 79  AUC=0.869 [0.830,0.904]  BSS=+0.319 [+0.210,+0.405]
+HRRR 00Z Sat run (Fri 17:00 PDT), f46-48       n= 440 events= 79  AUC=0.782 [0.729,0.825]  BSS=+0.140 [+0.049,+0.210]
+HRRR 06Z Sat run (Sat 01:00), f42-45           n= 440 events= 79  AUC=0.786 [0.728,0.830]  BSS=+0.160 [+0.060,+0.229]
+Ensemble + HRRR 00Z stacked                    n= 381 events= 72  AUC=0.867 [0.824,0.906]  BSS=+0.316 [+0.238,+0.395]
+Ensemble + HRRR 06Z stacked                    n= 381 events= 72  AUC=0.867 [0.827,0.907]  BSS=+0.320 [+0.240,+0.390]
+
+=== y1, HRRR alone over the long archive: rolling CV 2022Q1-2026Q4 (train from Dec 2020) ===
+HRRR 00Z, 2022-2026                            n=1731 events=314  AUC=0.784 [0.757,0.810]  BSS=+0.170 [+0.129,+0.210]
+HRRR 06Z, 2022-2026                            n=1731 events=314  AUC=0.774 [0.746,0.798]  BSS=+0.161 [+0.119,+0.203]
+
+=== Target: below minimums (y2) ===
+Ensemble nested P(below)                       n= 440 events= 34  AUC=0.897 [0.855,0.939]  BSS=+0.213 [+0.049,+0.362]
+HRRR 00Z direct P(below)                       n= 440 events= 34  AUC=0.768 [0.690,0.851]  BSS=+0.066 [-0.017,+0.133]
+HRRR 06Z direct P(below)                       n= 440 events= 34  AUC=0.802 [0.721,0.866]  BSS=+0.088 [-0.014,+0.169]
+HRRR 00Z P(below), 2022-2026                   n=1731 events=140  AUC=0.768 [0.725,0.811]  BSS=+0.091 [+0.052,+0.125]
+
+=== Raw HRRR field as a rule (no fitting), all labelled days ===
+HRRR 00Z says below (<300ft or <0.75mi)       : flagged  405 of 2117, recall 0.60, precision 0.26, base rate 0.083
+HRRR 00Z says marginal+ (<=500ft or <=1.5mi)  : flagged  462 of 2117, recall 0.55, precision 0.46, base rate 0.185
+HRRR 06Z says below (<300ft or <0.75mi)       : flagged  442 of 2117, recall 0.66, precision 0.26, base rate 0.083
+HRRR 06Z says marginal+ (<=500ft or <=1.5mi)  : flagged  502 of 2117, recall 0.58, precision 0.45, base rate 0.185
+
+[exited with code 0]
