@@ -37,7 +37,9 @@ def fetch_forecasts(Tu, models):
     feats, H, warn = {}, {}, []
     for m in models:
         try:
-            j = requests.get('https://api.open-meteo.com/v1/forecast', params=dict(latitude=LAT, longitude=LON, hourly=','.join(VARS + ['cloud_cover_low']), models=m, forecast_days=10, timezone='UTC'), timeout=60).json()
+            r = requests.get('https://api.open-meteo.com/v1/forecast', params=dict(latitude=LAT, longitude=LON, hourly=','.join(VARS + ['cloud_cover_low']), models=m, forecast_days=10, timezone='UTC'), timeout=60)
+            j = r.json()
+            if 'hourly' not in j: raise RuntimeError(f"HTTP {r.status_code}: {j.get('reason', j)}")
             h = pd.DataFrame(j['hourly']); h['time'] = pd.to_datetime(h['time'], utc=True); h = h.set_index('time')
             f = window_features(h, Tu, m[:4] + '_')
             if f: feats.update(f); H[m] = h
